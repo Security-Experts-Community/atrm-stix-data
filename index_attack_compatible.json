@@ -1,0 +1,35 @@
+{
+    "id": "08cfad10-4cf8-42cc-b31b-a7fb4635a7d2",
+    "name": "Azure Threat Research Matrix",
+    "description": "The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",
+    "created": "2024-03-01T14:00:00.188Z",
+    "modified": "2024-03-01T14:00:00.188Z",
+    "collections": [
+        {
+            "id": "x-mitre-collection--6aaadb00-2dbf-450a-a3e8-d4c6c5309639",
+            "created": "2024-03-01T14:00:00.188Z",
+            "versions": [
+                {
+                    "version": "0.1",
+                    "url": "https://raw.githubusercontent.com/Security-Experts-Community/atrm-stix-data/main/build/atrm_attack_compatible_9f05fef.json",
+                    "modified": "2024-03-01T14:00:00.188Z"
+                }
+            ],
+            "name": "ATT&CK compatible ATRM",
+            "description": "MITRE ATT&CK compatible STIX 2.1 Azure Threat Research Matrix collection bundle"
+        },
+        {
+            "id": "x-mitre-collection--bf1027b3-fe3a-4eac-bdd5-a1c48c4cb89e",
+            "created": "2024-03-01T14:00:00.188Z",
+            "versions": [
+                {
+                    "version": "0.1",
+                    "url": "https://raw.githubusercontent.com/Security-Experts-Community/atrm-stix-data/main/build/atrm_strict_9f05fef.json",
+                    "modified": "2024-03-01T14:00:00.188Z"
+                }
+            ],
+            "name": "Strict ATRM",
+            "description": "STIX 2.1 Azure Threat Research Matrix collection bundle with it's own source name, killchain name and domain"
+        }
+    ]
+}
