@@ -11,6 +11,7 @@ from constants import (
     DEFAULT_CREATOR_JSON,
     GET_ATRM_DOMAIN,
     GET_ATRM_SOURCE,
+    GET_COLLECTION_ID,
     Mode,
 )
 from custom_atrm_objects import Collection, ObjectRef, Relationship
@@ -26,7 +27,7 @@ def parse_atrm(mode: Mode):
     techniques = {}
     relations = []
     relationships = []
-    
+
     for tactic_name in ATRM_TACTICS_MAP:
         path = ATRM_PATH / "docs" / tactic_name
         tactic_file = path / [f for f in os.listdir(path) if f.endswith(".md")][0]
@@ -95,6 +96,7 @@ def parse_atrm(mode: Mode):
     objects.append(identity)
 
     collection = Collection(
+        id=GET_COLLECTION_ID(mode=mode),
         spec_version="2.1",
         name="Azure Threat Research Matrix",
         description="The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",
@@ -102,20 +104,23 @@ def parse_atrm(mode: Mode):
         x_mitre_version=ATRM_VERSION,
         created_by_ref=CREATOR_IDENTITY,
         x_mitre_contents=[
-            ObjectRef(object_ref=obj.id, object_modified=obj.modified) for obj in objects
+            ObjectRef(object_ref=obj.id, object_modified=obj.modified)
+            for obj in objects
         ],
     )
-
 
     bundle = Bundle(collection, objects, allow_custom=True)
     commit_hash = get_last_commit_hash(ATRM_PATH)
     output_file_last = Path(__file__).parent.parent / "build" / f"atrm_{mode.name}.json"
     with open(output_file_last, "w", encoding="utf-8") as f:
         f.write(bundle.serialize(pretty=True))
-        
-    output_file_versioned = Path(__file__).parent.parent / "build" / f"atrm_{mode.name}_{commit_hash}.json"    
+
+    output_file_versioned = (
+        Path(__file__).parent.parent / "build" / f"atrm_{mode.name}_{commit_hash}.json"
+    )
     with open(output_file_versioned, "w", encoding="utf-8") as f:
         f.write(bundle.serialize(pretty=True))
+
 
 if __name__ == "__main__":
     for mode in Mode:

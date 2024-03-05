@@ -21,6 +21,16 @@ class Mode(Enum):
     
 # DEFAULT_MODE = Mode.strict
 DEFAULT_MODE = Mode.attack_compatible
+            
+def GET_COLLECTION_ID(mode=DEFAULT_MODE):
+    match mode:
+        case Mode.strict:
+            return "x-mitre-collection--bf1027b3-fe3a-4eac-bdd5-a1c48c4cb89e"
+        case Mode.attack_compatible:
+            return "x-mitre-collection--6aaadb00-2dbf-450a-a3e8-d4c6c5309639"
+        case _:
+            raise Exception("Unexpected mode") 
+            
 
 def GET_ATRM_DOMAIN(mode=DEFAULT_MODE):
     match mode:
