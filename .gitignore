@@ -1,5 +1,5 @@
 *.lock
-ms-matrix
+ms-matrix/Azure-Threat-Research-Matrix
 .vscode
 
 # Byte-compiled / optimized / DLL files

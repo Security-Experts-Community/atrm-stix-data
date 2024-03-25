@@ -207,6 +207,10 @@ def parse_technique(
                     ]
                 )
 
+                desc = description
+                if "!!!" in desc:
+                    desc = technique_info['brief']
+
                 technique = Technique(
                     x_mitre_platforms=[ATRM_PLATFORM],
                     x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
@@ -215,7 +219,7 @@ def parse_technique(
                     created_by_ref=CREATOR_IDENTITY,
                     external_references=external_references,
                     name=technique_info["name"],
-                    description=description,
+                    description=desc,
                     x_mitre_brief=technique_info["brief"],
                     kill_chain_phases=[
                         {
@@ -262,6 +266,9 @@ def parse_technique(
                         for link in links
                     ]
                 )
+                desc = description
+                if "!!!" in desc:
+                    desc = technique_info['brief']
 
                 technique = Technique(
                     x_mitre_platforms=[ATRM_PLATFORM],
@@ -271,7 +278,7 @@ def parse_technique(
                     modified=modified_datetime,
                     external_references=external_references,
                     name=technique_info["name"],
-                    description=description,
+                    description=desc,
                     x_mitre_brief=technique_info["brief"],
                     kill_chain_phases=[
                         {
@@ -295,6 +302,9 @@ def parse_technique(
                     "target": parent_id,
                 }
         else:
+            desc = description
+            if "!!!" in desc:
+                desc = technique_info['brief']
             technique = Technique(
                 x_mitre_platforms=[ATRM_PLATFORM],
                 x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
@@ -309,7 +319,7 @@ def parse_technique(
                     },
                 ],
                 name=technique_info["name"],
-                description=description,
+                description=desc,
                 x_mitre_brief=technique_info["brief"],
                 kill_chain_phases=[
                     {

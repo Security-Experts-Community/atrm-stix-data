@@ -1,681 +1,681 @@
 {
     "type": "bundle",
-    "id": "bundle--95cb4ab8-ea37-4b4b-b337-f5b612611e89",
+    "id": "bundle--084f094d-298a-49fc-807d-dd69d2618521",
     "objects": [
         {
             "type": "x-mitre-collection",
             "spec_version": "2.1",
-            "id": "x-mitre-collection--73558aca-21e4-463e-9655-6e457e12e6ca",
+            "id": "x-mitre-collection--bf1027b3-fe3a-4eac-bdd5-a1c48c4cb89e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.1455Z",
-            "modified": "2024-03-01T11:23:56.1455Z",
+            "created": "2024-03-25T08:50:27.919623Z",
+            "modified": "2024-03-25T08:50:27.919623Z",
             "name": "Azure Threat Research Matrix",
             "description": "The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_contents": [
                 {
-                    "object_ref": "x-mitre-tactic--7b6ff367-c879-4537-8fdb-98b498f74a0a",
+                    "object_ref": "x-mitre-tactic--72987607-3031-4e46-8352-255208c061c7",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "x-mitre-tactic--9255d0b6-a9ea-4e7a-9aeb-9e3b49945d89",
+                    "object_ref": "x-mitre-tactic--5664197e-8e77-4145-b848-9dd68227eca1",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "x-mitre-tactic--9d43fc29-8d6a-4642-9305-2fe0c294949d",
+                    "object_ref": "x-mitre-tactic--2b04afaa-b289-49aa-9a83-44978deb984c",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "x-mitre-tactic--043b23c4-d297-46b7-b6ec-62354628ef68",
+                    "object_ref": "x-mitre-tactic--f2cee537-023e-433c-83b3-54128e17dc0e",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "x-mitre-tactic--92ae108c-dc8b-49ff-9998-c9fff6796ad0",
+                    "object_ref": "x-mitre-tactic--6caedcbe-eb96-4ba7-ba7e-3007688f12d1",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "x-mitre-tactic--14c05dc6-cb33-45b1-b380-6b8d62780b7e",
+                    "object_ref": "x-mitre-tactic--17719260-6270-4060-8d07-369d622a73d4",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "x-mitre-tactic--cc375ed2-632d-4d65-90bc-ebb2fa8fac77",
+                    "object_ref": "x-mitre-tactic--170069f3-584a-4e42-b70b-70e18bcfab2f",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f7e1d66f-ceb5-4a8c-84b0-b45c31e0691c",
+                    "object_ref": "attack-pattern--268b476a-8eea-4961-8215-c7557693e226",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--94ca65ff-c5b9-4182-9e7d-65c944ff9b4c",
+                    "object_ref": "attack-pattern--664d48ad-7883-4d11-9e11-e8ae3b74e429",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--1de0f035-a73e-4da5-a08f-47932fe55f81",
+                    "object_ref": "attack-pattern--9b9d58ea-b451-4964-ac4b-1e0082bd4f9d",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--5ae85d82-926e-42b8-bfcf-16f97b30f65a",
+                    "object_ref": "attack-pattern--11da0019-1a48-47df-a428-1f313caa4c47",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--857c72df-95e7-4e00-9764-30895301758a",
+                    "object_ref": "attack-pattern--32e95d98-f487-4395-99e1-3433e5baea8d",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--aac17dd3-73a8-4853-84c5-90c933b85e1c",
+                    "object_ref": "attack-pattern--fdf40a9b-c87a-43ab-b669-c22e6d53c2b8",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--d16607b1-4290-4e4d-9d41-b8999ea92d96",
+                    "object_ref": "attack-pattern--ac28b3e1-1bd0-491b-a859-6d0100ead69d",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f4ae6f70-9c00-4037-b80c-d343a2bb7569",
+                    "object_ref": "attack-pattern--5b459d6b-6aac-442d-9d7d-8cf14fb2de3f",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--4a1d9669-f5c9-40af-8f4d-55d6a1ea49b7",
+                    "object_ref": "attack-pattern--8d9b6e81-305c-4e62-871a-56ff43be6a8e",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--ae114184-0561-4871-b61d-f022f9d3eae0",
+                    "object_ref": "attack-pattern--8964e259-5a76-496f-9187-b7d15c29a074",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--36719ac6-782d-4397-934d-c3f49519683c",
+                    "object_ref": "attack-pattern--b68df883-87a8-4bc8-a553-16bbff53c72a",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--4a997a2f-21b2-4103-8d26-dc546a8e2d5e",
+                    "object_ref": "attack-pattern--62686ebd-f6a3-425a-8272-8f79c5d7854d",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--8eef2aa4-c1f3-419e-a366-167d2023c85d",
+                    "object_ref": "attack-pattern--0a1f5825-bdcf-4ac5-a7e7-cfe13d22f934",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--696e1f11-563f-426f-8c64-85a732f73610",
+                    "object_ref": "attack-pattern--ac7f52b1-1a71-4f4c-9fef-4869861b29e5",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--66e2e0ee-196c-4629-9786-eb6ac29ef50c",
+                    "object_ref": "attack-pattern--0b072ae4-5fe4-4f70-8cd9-f1bf6abc8aba",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--ebcf3c79-68c1-40b8-916e-88827608e963",
+                    "object_ref": "attack-pattern--845c16b9-fc4e-452b-872e-2d1815d392ad",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--e747f5f4-e340-4911-9f49-cd09a51290b2",
+                    "object_ref": "attack-pattern--574aa812-8ea4-434b-b51a-fb67a4701c6b",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--0763e018-2372-4aee-9970-bd1077583219",
+                    "object_ref": "attack-pattern--29e152af-b515-46c0-8ee5-e4c53286cc4e",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--9e25ecc3-3dcc-46b0-ba68-fd093ba0d4fe",
+                    "object_ref": "attack-pattern--65591b92-94da-41a4-9409-3f4b30fb37da",
                     "object_modified": "2023-06-20T15:00:42.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+                    "object_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--4bbe0825-842a-4177-b94a-a55fe15416d5",
+                    "object_ref": "attack-pattern--4e55dc6c-f0cd-4577-afb3-db973f1cfee4",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--8b26e63e-3944-49c4-8e9f-45309f79e0f8",
+                    "object_ref": "attack-pattern--094f30e0-d90c-47ec-949d-097c470183a9",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--27c1c59c-015b-4fa9-8abe-c6b76c0812f3",
+                    "object_ref": "attack-pattern--3aff39b8-2ccb-488f-8f87-9cb48c4256ca",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--98edb860-9342-401c-b112-796d1dd6ca37",
+                    "object_ref": "attack-pattern--e543b6cd-c1c0-40df-99a5-3ab28690d06b",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--74a347fb-8831-4839-b462-7db25928c759",
+                    "object_ref": "attack-pattern--be59a4c2-c00b-49ee-940e-ea26be61bafa",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--7b1343f6-45d7-4b2d-aca7-d2dc2be55275",
+                    "object_ref": "attack-pattern--8586f122-4c0f-4571-88ac-c7b6cc2593cd",
                     "object_modified": "2024-02-04T22:12:32.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--208f90b7-72c7-45e5-a65f-1a39416b093b",
+                    "object_ref": "attack-pattern--eade80d2-e1ce-434f-827a-8324412c4ced",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--c1e66d78-977d-466a-a2a5-e114ffdf6eb9",
+                    "object_ref": "attack-pattern--7bb9d8a8-3e9a-4551-ad1b-f3f7ee275bb0",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--948393aa-3e8d-48a8-b642-06ebc72a0f58",
+                    "object_ref": "attack-pattern--5f6ea055-96ca-4d3e-ba7a-eb7952a33b1f",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--18cae7c7-0d02-42e3-b77e-054e0237c082",
+                    "object_ref": "attack-pattern--24b45623-3ddc-496b-bafa-f32127dc83c8",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--4888ef13-697d-4bc8-823b-bc2d5c5ffa0f",
+                    "object_ref": "attack-pattern--5ff11929-204c-4a06-89e7-6c13cd0b8023",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--6c98d65d-994f-46d6-84ef-8d5c8e2815a6",
+                    "object_ref": "attack-pattern--9bdeb3ed-3192-4c25-b7ee-e0e7b2400545",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--76b366ab-ccc3-40b6-a8fb-a9b3fa8ad5ac",
+                    "object_ref": "attack-pattern--a97fb0c4-2ae4-4f50-b96c-8007f652ffd9",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--77ac9a85-3391-4492-ba25-ff8263c85500",
+                    "object_ref": "attack-pattern--5c07480f-949b-4459-aba1-a272193b5b26",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--46429c7a-60a4-4bee-9ea7-f076fe0b8adb",
+                    "object_ref": "attack-pattern--2c98c491-2985-4991-b9db-a1c1e7615994",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--e9e262b3-a355-485b-b478-d582a2f6e7d6",
+                    "object_ref": "attack-pattern--70f889b3-cd41-4177-8bff-d22691d4602e",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--8309b452-a579-4e22-8edc-5ab74d586064",
+                    "object_ref": "attack-pattern--d9210297-1194-4292-8416-7ab94dcc9a11",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--d1b2699c-ddf3-4682-bd76-61e67ff371b1",
+                    "object_ref": "attack-pattern--6155cdf2-448c-4dc9-a679-2b7118182723",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--407be6cc-1ade-4cac-871f-410212c15fe2",
+                    "object_ref": "attack-pattern--b22a37d2-1268-4139-b012-ec10fc8ca488",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--2922b20e-dc06-4365-bf34-5ddff1559e2f",
+                    "object_ref": "attack-pattern--777a1101-c222-4156-90a4-e311545db001",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f0afb87e-7082-4a8d-ad13-946d1ab57277",
+                    "object_ref": "attack-pattern--3830bfda-b828-4504-b0d0-8d3e9f65faf6",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--ce14bb55-8b2f-4444-914d-a1d7129ed4f9",
+                    "object_ref": "attack-pattern--30e8a996-aaa6-46f7-932c-4eda49090356",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--a6eee2f2-67aa-451e-b7de-ffd5bdccc01e",
+                    "object_ref": "attack-pattern--8ad532cc-30be-44cd-823f-7deaf726c503",
                     "object_modified": "2023-06-12T03:25:08.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--c76bac35-b41d-489a-a162-5c5543fd0476",
+                    "object_ref": "attack-pattern--16c0a7fc-7252-4bf4-8ea6-7a60ea5cb966",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--4356df5c-75e9-48bb-97b8-cbb1b771c1fc",
+                    "object_ref": "attack-pattern--61edac02-d1fa-44dd-8334-3df64bb65426",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--65418e2d-2908-4c9c-9548-817c93e79cc2",
+                    "object_ref": "attack-pattern--2b1549dd-a09f-4a9b-88a4-2eff87268528",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--08dbd72e-6c39-4cf6-a905-f4a8df83a510",
+                    "object_ref": "attack-pattern--e20e7837-0dd2-45b6-8265-6835e7079ff5",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--e728e04a-3b02-4820-bfd2-27540e8038e3",
+                    "object_ref": "attack-pattern--b614e8d7-039e-4e99-a1a0-e3ef5ed0ca97",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--71617884-b634-4739-98d8-72d8c66ae84c",
+                    "object_ref": "attack-pattern--0f01367c-ef9c-438a-b096-448148677c72",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--303e123b-0806-40bb-87b2-b3cec06c10e9",
+                    "object_ref": "attack-pattern--8cb8258c-b751-4b4d-92c2-ae4117ff41af",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--15dbfb98-209f-4ce6-89bd-afd674f79502",
+                    "object_ref": "attack-pattern--772716f5-4852-475a-a631-ae42348b007f",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--517fa41e-dea0-4673-a0c2-ce1dda312e6d",
+                    "object_ref": "attack-pattern--5c447245-3556-4c3d-913b-b7cd74e28039",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--0db65146-95d3-42e8-92e0-994b5a25ecd4",
+                    "object_ref": "attack-pattern--0befda65-df42-4c80-a383-45c5d68ef9f0",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--15cae0bb-d271-47b3-99eb-f26b7c58f15e",
+                    "object_ref": "attack-pattern--85398833-61eb-46d4-9c81-69ee89a3d136",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f031be4d-527b-4a52-81bd-c9a769ed6f8f",
+                    "object_ref": "attack-pattern--6c2cf99e-01ee-478b-9aa8-060a8d1f9d52",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--39297417-c79d-4196-95be-33c041c6030e",
+                    "object_ref": "attack-pattern--5137e13e-c99c-49cf-ad00-9eb9e3344b61",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--b7a3cf5d-1f16-420f-9e11-4e28da2bd866",
+                    "object_ref": "attack-pattern--0a5b9484-01d2-45a7-8e2e-11fdd9d52b3a",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f6a37f3c-0498-4175-9c48-73403300a753",
+                    "object_ref": "attack-pattern--6cc30162-d68d-4bfc-81be-15ad3e5bdae9",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--859a1808-4839-4b3f-85d2-59e7e2168acd",
+                    "object_ref": "attack-pattern--e0cc35c1-b058-4544-8ee3-129fc24ade4e",
                     "object_modified": "2024-02-04T22:12:32.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--34fdcffe-f17f-4911-b23a-40ed62b02d75",
+                    "object_ref": "attack-pattern--b7670d70-f1c4-4963-8c51-ecf8d7a099a4",
                     "object_modified": "2022-08-18T19:04:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--a974bd46-4297-4e85-9650-88fdc23ce1d6",
+                    "object_ref": "attack-pattern--cb6ea575-bc20-4261-a36d-614d59735ced",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--a4207f57-4e2c-4885-b882-d05475addeba",
+                    "object_ref": "attack-pattern--630791a3-d60e-4c4b-84a8-d9397166876f",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--fece1801-fe3b-4c86-9357-d172a6d12fbf",
+                    "object_ref": "attack-pattern--1c06e6d6-d8c6-4c57-8d66-a73c6bb62ac2",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--9f23c15a-a4cf-4a7d-8566-4bf8c15aeccd",
+                    "object_ref": "attack-pattern--2fb9a8b8-3141-4de8-bff3-ee36d65be398",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--de703d5b-81a4-43b7-b0a7-0397e7d27333",
+                    "object_ref": "attack-pattern--aadb4d17-c65a-428b-beea-911c74a0593b",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--a431ed6a-9345-4a50-ae09-c6f5d46312e7",
+                    "object_ref": "attack-pattern--0ce2adf9-4f8c-4aeb-85aa-db0496b8629c",
                     "object_modified": "2023-06-12T03:33:04.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f12527c6-0b0a-4c36-b631-db6a8549ce3c",
+                    "object_ref": "attack-pattern--ed8c8c59-6a07-4d27-bb0d-e0e3ccf31c33",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--16b81a6b-44cc-4a61-aeb1-4344dd01f812",
+                    "object_ref": "attack-pattern--5517ec16-8116-4c7f-95d5-2f3a3be35ee2",
                     "object_modified": "2023-06-12T03:27:03.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--ddb4da34-21cc-4b44-8e3d-f4acf09ee858",
+                    "object_ref": "attack-pattern--b0844cbf-878c-4221-a7fc-70c276542fa5",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--fab33b35-8f44-48ab-bd20-11a63556eb69",
+                    "object_ref": "attack-pattern--09109128-664e-4eb5-b891-41935a01d5cf",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--b066ff7c-877c-4ded-9a2e-63e0a5e74c5d",
+                    "object_ref": "attack-pattern--a6c5dd02-1714-4fd1-8c7b-55b68eaab8fb",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--9f4542e3-dd0e-428f-a9c6-c2cc28291443",
+                    "object_ref": "attack-pattern--f99d7c5e-015e-4aec-809f-c62a392137d1",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--9eb207ee-8ca4-4ac0-af19-be8ed685259b",
+                    "object_ref": "attack-pattern--ff405e31-278c-42db-964c-b36eac195238",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--4f42d93a-f36c-4e73-a512-706ef4416df1",
+                    "object_ref": "attack-pattern--97dc0499-c809-46e0-8bdf-6e2991e9ee02",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--9513b7ca-1215-461f-a382-8d4efbc2f8fa",
+                    "object_ref": "attack-pattern--88a747d9-fa91-48ca-b7b5-829b13ed0884",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--c2dfbdf8-fc1b-4072-9f9b-c57798f221ec",
+                    "object_ref": "attack-pattern--dba23df3-b5ac-4bb1-b786-8a96d7ff5d61",
                     "object_modified": "2022-08-18T19:04:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--2db86a19-4ed0-4b6b-9a04-6cced72f88db",
+                    "object_ref": "attack-pattern--f2dff7cf-8146-4eb2-8875-d7a293b66b5b",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--c51191fc-9c7d-4743-9ba2-f2418055ee62",
+                    "object_ref": "attack-pattern--0d9f6aba-487c-4e0c-a483-97086bdec821",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--a1a3af98-b8c7-4113-8b35-88e673ca8725",
+                    "object_ref": "attack-pattern--89a91ded-a372-4630-b5a8-3e14d91f8408",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--18ee0f9c-8a75-40cf-8c41-0a51c0046dcb",
+                    "object_ref": "attack-pattern--b5f240be-4747-498b-ad69-0be4d1d36f94",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--0d376bc2-3e30-4a68-896c-c7e539ccf63e",
+                    "object_ref": "attack-pattern--07a590ec-1c21-4b8c-87c7-79cf67c69612",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--8294948e-908c-468a-9a61-c9cf8bdeb0c5",
+                    "object_ref": "attack-pattern--bae42eab-b9f0-4f0e-8227-d4f619e8d679",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+                    "object_ref": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
                     "object_modified": "2022-07-29T18:07:09.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--154ea787-0be0-42bf-8c15-504783c33198",
+                    "object_ref": "attack-pattern--fb488db2-63ff-42d9-9495-5ae27fc5a6cd",
                     "object_modified": "2023-06-12T03:16:53.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--52a514be-41a2-42f1-a785-678e730e96c3",
+                    "object_ref": "attack-pattern--b4d2be4f-32c7-45a1-aa47-4292b4891355",
                     "object_modified": "2023-06-12T03:08:06.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--d6ead964-7336-412c-ba4c-51d9daf3591b",
+                    "object_ref": "attack-pattern--32407871-8a18-4832-9239-922bcbfc2956",
                     "object_modified": "2024-02-04T22:12:32.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--05be10ab-1734-4eac-8da8-3de6229c964f",
+                    "object_ref": "attack-pattern--89575dad-41e5-4c78-9fa1-0ef36d93177e",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--fddef5ee-bf0e-4291-bfba-d6ca924c2c66",
+                    "object_ref": "attack-pattern--4d4a170a-b5c6-47eb-9e5e-f4d844bdd18c",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--1e45757b-376a-4874-be56-28ea2cd2dac8",
+                    "object_ref": "attack-pattern--212ba8ed-7537-49bb-a562-865d29591ed4",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--c077a596-e39a-4030-aa7d-1aca2a8095d5",
+                    "object_ref": "attack-pattern--c9fcb202-2596-419f-b4b0-a6f2d57579e5",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--0f91de88-ba27-4d92-ae8c-996d7ae0a7c8",
+                    "object_ref": "attack-pattern--001b4b10-7f27-479c-a120-f23ca32d2612",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--c06b6b60-d273-4c90-954f-410b3a400ad7",
+                    "object_ref": "attack-pattern--e9628e70-223d-43a7-a12d-e294331a3bd4",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--e75e1cfa-0b75-49d5-b5e7-60e32a9a1767",
+                    "object_ref": "attack-pattern--43f52b47-ed72-409a-b776-ff8bf53d5cde",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--d79e32e5-d125-487c-bbf9-33f962046b85",
+                    "object_ref": "attack-pattern--3a5a3838-b787-413d-9f8c-5cd9f09f2a51",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--9c4d85f0-7b58-4c32-af79-7374537d0aa7",
+                    "object_ref": "attack-pattern--3df498cb-01bf-4cab-a912-bd1b515ba967",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--3ef39639-4aa3-4eb9-9da6-cc290e26ceca",
+                    "object_ref": "attack-pattern--4571e48e-28cd-4ca2-b034-24ccd5a89588",
                     "object_modified": "2024-02-04T23:05:59.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--27159ac9-2ab0-4917-814c-0144d240b8b6",
+                    "object_ref": "attack-pattern--2d63fbe3-1a4d-4698-bd86-a7a92f4222d0",
                     "object_modified": "2023-09-05T15:58:57.000Z"
                 },
                 {
-                    "object_ref": "attack-pattern--f2e7474f-14fc-4db8-b1ee-5c0e575bce9b",
+                    "object_ref": "attack-pattern--5c870ef4-848b-4bd0-a556-b714e2c7d524",
                     "object_modified": "2023-09-05T19:05:13.000Z"
                 },
                 {
-                    "object_ref": "relationship--2a37ffb1-fe7b-4caf-898e-c9e5a02e34c3",
-                    "object_modified": "2024-03-01T11:23:56.138255Z"
+                    "object_ref": "relationship--3705787a-116c-4ed1-8bbb-72e4c0a06779",
+                    "object_modified": "2024-03-25T08:50:27.912457Z"
                 },
                 {
-                    "object_ref": "relationship--05be7a6a-8c8a-4d3c-b62e-847e8effa94e",
-                    "object_modified": "2024-03-01T11:23:56.138343Z"
+                    "object_ref": "relationship--6aa4cafc-d9da-467a-852f-5f894a88eb46",
+                    "object_modified": "2024-03-25T08:50:27.912545Z"
                 },
                 {
-                    "object_ref": "relationship--b9c2d837-246c-47c5-b8d1-189d1ac53e5e",
-                    "object_modified": "2024-03-01T11:23:56.138413Z"
+                    "object_ref": "relationship--99e356f1-72ca-4be0-9d9a-d985d25e4858",
+                    "object_modified": "2024-03-25T08:50:27.912609Z"
                 },
                 {
-                    "object_ref": "relationship--c36dea89-ff42-4c14-b20d-765b44a0d6bc",
-                    "object_modified": "2024-03-01T11:23:56.138479Z"
+                    "object_ref": "relationship--0dae5b00-d648-4a7e-ab1b-e1dffc89a1e5",
+                    "object_modified": "2024-03-25T08:50:27.912684Z"
                 },
                 {
-                    "object_ref": "relationship--7ab3b63f-8e6f-45fb-a81a-1d4158cce789",
-                    "object_modified": "2024-03-01T11:23:56.138542Z"
+                    "object_ref": "relationship--33df35df-e2fd-4306-9714-5be660b562e0",
+                    "object_modified": "2024-03-25T08:50:27.912745Z"
                 },
                 {
-                    "object_ref": "relationship--184bb62c-e13b-4e52-806d-2f741096aaac",
-                    "object_modified": "2024-03-01T11:23:56.138601Z"
+                    "object_ref": "relationship--04ae7330-75b2-417b-905d-ae8ed01226da",
+                    "object_modified": "2024-03-25T08:50:27.912806Z"
                 },
                 {
-                    "object_ref": "relationship--c2008259-78db-4a9e-80da-d594a52585d1",
-                    "object_modified": "2024-03-01T11:23:56.138662Z"
+                    "object_ref": "relationship--a87ddbb3-6d1d-43c3-8038-dcec375086f2",
+                    "object_modified": "2024-03-25T08:50:27.912867Z"
                 },
                 {
-                    "object_ref": "relationship--3d5cd7f8-ecf3-441b-8ca2-8de5db167c06",
-                    "object_modified": "2024-03-01T11:23:56.138724Z"
+                    "object_ref": "relationship--2e24ea6f-911a-4934-ac99-9eb134e5951c",
+                    "object_modified": "2024-03-25T08:50:27.912927Z"
                 },
                 {
-                    "object_ref": "relationship--e27728f7-9ace-4842-8e88-96dea1bea83b",
-                    "object_modified": "2024-03-01T11:23:56.138784Z"
+                    "object_ref": "relationship--5d3b607c-b467-4363-80b8-87cdb4dc11c4",
+                    "object_modified": "2024-03-25T08:50:27.912996Z"
                 },
                 {
-                    "object_ref": "relationship--bd1571ec-c655-4ef2-8957-595c295e18a2",
-                    "object_modified": "2024-03-01T11:23:56.138843Z"
+                    "object_ref": "relationship--1babad64-07d7-406b-ae70-b3114cb39e28",
+                    "object_modified": "2024-03-25T08:50:27.913055Z"
                 },
                 {
-                    "object_ref": "relationship--ae0046f8-fa7d-4ad1-a7e8-a889cc4094b8",
-                    "object_modified": "2024-03-01T11:23:56.138902Z"
+                    "object_ref": "relationship--b31ff93b-fb3e-48b4-8e56-585e72f460e3",
+                    "object_modified": "2024-03-25T08:50:27.913112Z"
                 },
                 {
-                    "object_ref": "relationship--029559ac-6507-490d-b685-cb7ac5c01d88",
-                    "object_modified": "2024-03-01T11:23:56.138959Z"
+                    "object_ref": "relationship--ede2c56f-c09b-4f15-9958-585ffd1b9382",
+                    "object_modified": "2024-03-25T08:50:27.913176Z"
                 },
                 {
-                    "object_ref": "relationship--fc711a2c-7bf4-4816-b09a-6433a33592cd",
-                    "object_modified": "2024-03-01T11:23:56.139016Z"
+                    "object_ref": "relationship--a904c1be-d409-4ff9-93bc-ae737dba9e93",
+                    "object_modified": "2024-03-25T08:50:27.913235Z"
                 },
                 {
-                    "object_ref": "relationship--501e2671-11e9-413f-91d5-376603d5fe3c",
-                    "object_modified": "2024-03-01T11:23:56.139074Z"
+                    "object_ref": "relationship--359476a1-9cef-459d-8541-0490c237e0ec",
+                    "object_modified": "2024-03-25T08:50:27.913296Z"
                 },
                 {
-                    "object_ref": "relationship--08fccc32-126e-42bb-9a02-b08e11936245",
-                    "object_modified": "2024-03-01T11:23:56.139136Z"
+                    "object_ref": "relationship--37c0b97f-ce34-408b-9410-5a8253945774",
+                    "object_modified": "2024-03-25T08:50:27.913354Z"
                 },
                 {
-                    "object_ref": "relationship--40bf9f61-1622-4021-b607-8faf48f989ae",
-                    "object_modified": "2024-03-01T11:23:56.139193Z"
+                    "object_ref": "relationship--7cf449a9-7e3d-49ce-813b-5721f162ee49",
+                    "object_modified": "2024-03-25T08:50:27.913412Z"
                 },
                 {
-                    "object_ref": "relationship--ee653758-efa0-4c0a-a30b-1a18b5f82ad7",
-                    "object_modified": "2024-03-01T11:23:56.139251Z"
+                    "object_ref": "relationship--a6e9aa46-520f-4a3c-bd91-fa6f31a28035",
+                    "object_modified": "2024-03-25T08:50:27.913476Z"
                 },
                 {
-                    "object_ref": "relationship--7205d2fd-dcf0-42d0-90f1-be6592e030e9",
-                    "object_modified": "2024-03-01T11:23:56.139324Z"
+                    "object_ref": "relationship--ef17129a-351d-42d4-97d8-cd6d03c5bef6",
+                    "object_modified": "2024-03-25T08:50:27.913533Z"
                 },
                 {
-                    "object_ref": "relationship--8eaea6f3-72a2-4509-acf9-713242a3c9e2",
-                    "object_modified": "2024-03-01T11:23:56.139383Z"
+                    "object_ref": "relationship--f7f1063f-59d4-4339-ac13-b96a59388fb3",
+                    "object_modified": "2024-03-25T08:50:27.913589Z"
                 },
                 {
-                    "object_ref": "relationship--32429187-928b-49f7-8dd8-8f754e65f1a7",
-                    "object_modified": "2024-03-01T11:23:56.13945Z"
+                    "object_ref": "relationship--f7e1fb1d-da85-4635-b357-c0159b25d1cd",
+                    "object_modified": "2024-03-25T08:50:27.91365Z"
                 },
                 {
-                    "object_ref": "relationship--c29643ee-cc63-4f43-ac4c-646bed01fe0f",
-                    "object_modified": "2024-03-01T11:23:56.139511Z"
+                    "object_ref": "relationship--18474824-7223-4320-94ec-9d864d3b0162",
+                    "object_modified": "2024-03-25T08:50:27.913706Z"
                 },
                 {
-                    "object_ref": "relationship--ec860e84-69ef-4806-9d7a-c5535d539513",
-                    "object_modified": "2024-03-01T11:23:56.139569Z"
+                    "object_ref": "relationship--6f22cf11-b3f6-423b-b143-e6376ed249ec",
+                    "object_modified": "2024-03-25T08:50:27.913766Z"
                 },
                 {
-                    "object_ref": "relationship--ee5e4a77-ad2d-4d0b-bce0-1b1b1e33f07e",
-                    "object_modified": "2024-03-01T11:23:56.139628Z"
+                    "object_ref": "relationship--98c2d2f4-96e0-4fcc-8aba-804cf0cef55d",
+                    "object_modified": "2024-03-25T08:50:27.913824Z"
                 },
                 {
-                    "object_ref": "relationship--85b1da49-068b-44e1-9033-540e759bb757",
-                    "object_modified": "2024-03-01T11:23:56.139685Z"
+                    "object_ref": "relationship--e9a622d9-8e35-43ee-837d-6f796efa7ee1",
+                    "object_modified": "2024-03-25T08:50:27.913881Z"
                 },
                 {
-                    "object_ref": "relationship--d159c8db-185f-4d2c-b883-0582c77d57c7",
-                    "object_modified": "2024-03-01T11:23:56.139741Z"
+                    "object_ref": "relationship--ba917694-51d7-4e70-a42b-6bc8381d2ed0",
+                    "object_modified": "2024-03-25T08:50:27.913937Z"
                 },
                 {
-                    "object_ref": "relationship--1d3a11c2-0bec-4ebb-bfa7-d768ddc194cd",
-                    "object_modified": "2024-03-01T11:23:56.139805Z"
+                    "object_ref": "relationship--b43ebdc4-8060-4fde-8cbc-eff948ce289c",
+                    "object_modified": "2024-03-25T08:50:27.913996Z"
                 },
                 {
-                    "object_ref": "relationship--03b7b959-de80-42a6-bdc3-086473942af7",
-                    "object_modified": "2024-03-01T11:23:56.139861Z"
+                    "object_ref": "relationship--c058b2b0-7946-4d44-8a13-f4d2730b0572",
+                    "object_modified": "2024-03-25T08:50:27.914057Z"
                 },
                 {
-                    "object_ref": "relationship--69bffada-cea3-457c-a4a4-afdabb3b82bc",
-                    "object_modified": "2024-03-01T11:23:56.139919Z"
+                    "object_ref": "relationship--1927b5ec-59fa-470c-b6a5-b902ee7ff983",
+                    "object_modified": "2024-03-25T08:50:27.914122Z"
                 },
                 {
-                    "object_ref": "relationship--825c8ad1-1ac7-48ba-a803-cfe06af7ec7f",
-                    "object_modified": "2024-03-01T11:23:56.139975Z"
+                    "object_ref": "relationship--b6ca5145-ce19-49cf-9af9-ed9d8fa678e0",
+                    "object_modified": "2024-03-25T08:50:27.91418Z"
                 },
                 {
-                    "object_ref": "relationship--0a3652fa-9d85-4d0a-8860-005c50b96ee6",
-                    "object_modified": "2024-03-01T11:23:56.140033Z"
+                    "object_ref": "relationship--05911268-8eef-4e2c-bdc3-7f2d3331f569",
+                    "object_modified": "2024-03-25T08:50:27.914237Z"
                 },
                 {
-                    "object_ref": "relationship--be69a6ec-75f2-4ac5-9cc8-f5a386d9deec",
-                    "object_modified": "2024-03-01T11:23:56.140091Z"
+                    "object_ref": "relationship--bd4c6906-fcad-4ce2-b06b-67324948fe4b",
+                    "object_modified": "2024-03-25T08:50:27.914294Z"
                 },
                 {
-                    "object_ref": "relationship--5f4689f4-c553-4170-8af9-85ffb796677e",
-                    "object_modified": "2024-03-01T11:23:56.140147Z"
+                    "object_ref": "relationship--5e51e9d6-cd13-4624-8959-5beeeb2ff62c",
+                    "object_modified": "2024-03-25T08:50:27.914351Z"
                 },
                 {
-                    "object_ref": "relationship--9a869bf6-f24d-4694-a1b4-dc09cddfe06e",
-                    "object_modified": "2024-03-01T11:23:56.140202Z"
+                    "object_ref": "relationship--01ac9de6-7db1-472a-b65d-1ecef7da0371",
+                    "object_modified": "2024-03-25T08:50:27.914407Z"
                 },
                 {
-                    "object_ref": "relationship--d0e8071b-47fe-4088-9588-df70d68c95c5",
-                    "object_modified": "2024-03-01T11:23:56.140291Z"
+                    "object_ref": "relationship--7f6b05ce-3274-4f78-93fb-e4196cc903bf",
+                    "object_modified": "2024-03-25T08:50:27.914479Z"
                 },
                 {
-                    "object_ref": "relationship--ae719274-72d5-4ec0-a8d9-217f72c6ed7a",
-                    "object_modified": "2024-03-01T11:23:56.140388Z"
+                    "object_ref": "relationship--aa4d33d8-56ab-45a0-8093-89e64857c91d",
+                    "object_modified": "2024-03-25T08:50:27.914537Z"
                 },
                 {
-                    "object_ref": "relationship--4af4b970-f5fe-4e32-8c65-b41672677580",
-                    "object_modified": "2024-03-01T11:23:56.140458Z"
+                    "object_ref": "relationship--f4c2878f-c988-4246-aa5d-d3cfc701cb00",
+                    "object_modified": "2024-03-25T08:50:27.914597Z"
                 },
                 {
-                    "object_ref": "relationship--f6da3472-d8c9-48b4-b878-c4ddffdf54f9",
-                    "object_modified": "2024-03-01T11:23:56.140523Z"
+                    "object_ref": "relationship--a11c1e52-76bd-4214-a92c-da3b2954e608",
+                    "object_modified": "2024-03-25T08:50:27.914655Z"
                 },
                 {
-                    "object_ref": "relationship--f39ee728-b625-4a8c-a7e1-f5cca669f5ec",
-                    "object_modified": "2024-03-01T11:23:56.140591Z"
+                    "object_ref": "relationship--152ccf46-deb4-4b22-8a8a-ee1f7dada4a1",
+                    "object_modified": "2024-03-25T08:50:27.914712Z"
                 },
                 {
-                    "object_ref": "relationship--f43a5061-65d3-4328-9a20-482770c2bd0e",
-                    "object_modified": "2024-03-01T11:23:56.14065Z"
+                    "object_ref": "relationship--afdbd282-c7d1-40f8-bd4c-0027b78424be",
+                    "object_modified": "2024-03-25T08:50:27.914772Z"
                 },
                 {
-                    "object_ref": "relationship--23d0bd94-b3fc-42b6-addf-87917f31d581",
-                    "object_modified": "2024-03-01T11:23:56.140713Z"
+                    "object_ref": "relationship--555e471c-9107-40a6-8220-16c5779cec53",
+                    "object_modified": "2024-03-25T08:50:27.914828Z"
                 },
                 {
-                    "object_ref": "relationship--24e70ed8-d5e9-494d-ba62-e71b58f81eff",
-                    "object_modified": "2024-03-01T11:23:56.140775Z"
+                    "object_ref": "relationship--dd591950-1d83-4e87-9ffa-046022923f21",
+                    "object_modified": "2024-03-25T08:50:27.914885Z"
                 },
                 {
-                    "object_ref": "relationship--7ac590ce-ffa5-4213-86b6-f78e198e6c6d",
-                    "object_modified": "2024-03-01T11:23:56.140833Z"
+                    "object_ref": "relationship--19d8ce5b-1813-44a3-9565-6ee26598e9d0",
+                    "object_modified": "2024-03-25T08:50:27.914941Z"
                 },
                 {
-                    "object_ref": "relationship--e8b659ca-a310-4f07-b544-f9d7b280c539",
-                    "object_modified": "2024-03-01T11:23:56.140894Z"
+                    "object_ref": "relationship--0e407f9f-a496-489a-8ae0-51f4e813894f",
+                    "object_modified": "2024-03-25T08:50:27.915005Z"
                 },
                 {
-                    "object_ref": "relationship--4d014f8c-a501-4ea2-9d84-fcaf543e894e",
-                    "object_modified": "2024-03-01T11:23:56.14096Z"
+                    "object_ref": "relationship--fe134f38-5772-4982-8ca0-3fa819589a7f",
+                    "object_modified": "2024-03-25T08:50:27.915069Z"
                 },
                 {
-                    "object_ref": "relationship--6401be2b-9132-43ac-8aef-8bcf11361680",
-                    "object_modified": "2024-03-01T11:23:56.141017Z"
+                    "object_ref": "relationship--59e501a0-012e-4029-a77a-5c08502b03da",
+                    "object_modified": "2024-03-25T08:50:27.915126Z"
                 },
                 {
-                    "object_ref": "relationship--6f1b227f-2b99-47f9-9743-45c1b360e886",
-                    "object_modified": "2024-03-01T11:23:56.141074Z"
+                    "object_ref": "relationship--6231f2f6-6262-46df-893b-7b6393711d6d",
+                    "object_modified": "2024-03-25T08:50:27.915186Z"
                 },
                 {
-                    "object_ref": "relationship--7975ab4e-6f57-4aad-9332-d277072c9188",
-                    "object_modified": "2024-03-01T11:23:56.141129Z"
+                    "object_ref": "relationship--34050712-ec46-4218-9e63-c2a2cec3cdd8",
+                    "object_modified": "2024-03-25T08:50:27.915243Z"
                 },
                 {
-                    "object_ref": "relationship--dcb25264-1769-468a-b4e1-8929aa1c2a40",
-                    "object_modified": "2024-03-01T11:23:56.141188Z"
+                    "object_ref": "relationship--faee8d68-a556-4d0c-986d-fb112d1bedba",
+                    "object_modified": "2024-03-25T08:50:27.9153Z"
                 },
                 {
-                    "object_ref": "relationship--d2f12839-d681-4d7e-9710-ed931c32ff14",
-                    "object_modified": "2024-03-01T11:23:56.141244Z"
+                    "object_ref": "relationship--b77e88a1-644a-4add-9c03-1ac64eef7178",
+                    "object_modified": "2024-03-25T08:50:27.915356Z"
                 },
                 {
-                    "object_ref": "relationship--19aa1a0e-74cf-47af-a218-05c16d47d151",
-                    "object_modified": "2024-03-01T11:23:56.141304Z"
+                    "object_ref": "relationship--f44c90a2-a87c-4da6-8b4a-0e57025d2ff7",
+                    "object_modified": "2024-03-25T08:50:27.915412Z"
                 },
                 {
-                    "object_ref": "relationship--b423c2eb-5ccb-429d-ba2d-86e9023ea70f",
-                    "object_modified": "2024-03-01T11:23:56.14136Z"
+                    "object_ref": "relationship--3156e2fa-cb53-4bd6-80af-37858731a439",
+                    "object_modified": "2024-03-25T08:50:27.915479Z"
                 },
                 {
-                    "object_ref": "relationship--1311e2f9-b0c3-4b18-89fe-52578678ed51",
-                    "object_modified": "2024-03-01T11:23:56.141418Z"
+                    "object_ref": "relationship--04963686-e46e-4722-8d8a-3f9a3215009d",
+                    "object_modified": "2024-03-25T08:50:27.915536Z"
                 },
                 {
-                    "object_ref": "relationship--cdee3b43-e4b0-4a04-a321-808c6a0e4199",
-                    "object_modified": "2024-03-01T11:23:56.141474Z"
+                    "object_ref": "relationship--21c23524-1b66-4875-b145-2e7e8c8d4029",
+                    "object_modified": "2024-03-25T08:50:27.915592Z"
                 },
                 {
-                    "object_ref": "relationship--a1a48aa3-d46f-4a45-8eba-25e7932ada92",
-                    "object_modified": "2024-03-01T11:23:56.141534Z"
+                    "object_ref": "relationship--679acef4-bab3-4e1d-99e7-c4edac3f112b",
+                    "object_modified": "2024-03-25T08:50:27.915649Z"
                 },
                 {
-                    "object_ref": "relationship--95cf4ffb-c7e0-4f85-bdb4-fdb3ae8a9d3a",
-                    "object_modified": "2024-03-01T11:23:56.142277Z"
+                    "object_ref": "relationship--1a405f19-04ac-4375-b777-8406935c2df3",
+                    "object_modified": "2024-03-25T08:50:27.91642Z"
                 },
                 {
-                    "object_ref": "relationship--57e0e380-0db3-4dff-8b61-e8071901979f",
-                    "object_modified": "2024-03-01T11:23:56.142337Z"
+                    "object_ref": "relationship--0cdc6723-aa5e-4d1e-b3dc-34769606e832",
+                    "object_modified": "2024-03-25T08:50:27.916494Z"
                 },
                 {
-                    "object_ref": "relationship--9e5c2606-69c4-499e-bc89-1790976a3ee0",
-                    "object_modified": "2024-03-01T11:23:56.1424Z"
+                    "object_ref": "relationship--7d17cd6d-80f6-40f4-9cb4-db262fef79e9",
+                    "object_modified": "2024-03-25T08:50:27.916558Z"
                 },
                 {
-                    "object_ref": "relationship--731e8219-51b1-4f36-9efd-2d1bb94132f9",
-                    "object_modified": "2024-03-01T11:23:56.142457Z"
+                    "object_ref": "relationship--db94f040-fcd7-4741-939e-c4d4f45bbe49",
+                    "object_modified": "2024-03-25T08:50:27.916619Z"
                 },
                 {
-                    "object_ref": "relationship--9bc0a4d3-59b5-4af6-bd7f-62a155918133",
-                    "object_modified": "2024-03-01T11:23:56.142515Z"
+                    "object_ref": "relationship--2e309c48-1daf-4401-bbc5-6233c669248d",
+                    "object_modified": "2024-03-25T08:50:27.916678Z"
                 },
                 {
-                    "object_ref": "relationship--b1228285-150f-4e04-9866-208c98d0e0e8",
-                    "object_modified": "2024-03-01T11:23:56.142573Z"
+                    "object_ref": "relationship--d1d1c6db-faba-408d-a173-3ac4592672c0",
+                    "object_modified": "2024-03-25T08:50:27.916736Z"
                 },
                 {
-                    "object_ref": "x-mitre-matrix--52488c6f-85f5-48f7-91ef-9969803b5ba5",
-                    "object_modified": "2024-03-01T14:23:56.142Z"
+                    "object_ref": "x-mitre-matrix--b7a201c7-e967-4adc-b4ac-ea1fc58f8c54",
+                    "object_modified": "2024-03-25T11:50:27.916Z"
                 },
                 {
                     "object_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
@@ -687,7 +687,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--7b6ff367-c879-4537-8fdb-98b498f74a0a",
+            "id": "x-mitre-tactic--72987607-3031-4e46-8352-255208c061c7",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -711,7 +711,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--9255d0b6-a9ea-4e7a-9aeb-9e3b49945d89",
+            "id": "x-mitre-tactic--5664197e-8e77-4145-b848-9dd68227eca1",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -735,7 +735,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--9d43fc29-8d6a-4642-9305-2fe0c294949d",
+            "id": "x-mitre-tactic--2b04afaa-b289-49aa-9a83-44978deb984c",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -759,7 +759,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--043b23c4-d297-46b7-b6ec-62354628ef68",
+            "id": "x-mitre-tactic--f2cee537-023e-433c-83b3-54128e17dc0e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -783,7 +783,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--92ae108c-dc8b-49ff-9998-c9fff6796ad0",
+            "id": "x-mitre-tactic--6caedcbe-eb96-4ba7-ba7e-3007688f12d1",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -807,7 +807,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--14c05dc6-cb33-45b1-b380-6b8d62780b7e",
+            "id": "x-mitre-tactic--17719260-6270-4060-8d07-369d622a73d4",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -831,7 +831,7 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "id": "x-mitre-tactic--cc375ed2-632d-4d65-90bc-ebb2fa8fac77",
+            "id": "x-mitre-tactic--170069f3-584a-4e42-b70b-70e18bcfab2f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -855,7 +855,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f7e1d66f-ceb5-4a8c-84b0-b45c31e0691c",
+            "id": "attack-pattern--268b476a-8eea-4961-8215-c7557693e226",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -902,7 +902,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--94ca65ff-c5b9-4182-9e7d-65c944ff9b4c",
+            "id": "attack-pattern--664d48ad-7883-4d11-9e11-e8ae3b74e429",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -951,7 +951,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--1de0f035-a73e-4da5-a08f-47932fe55f81",
+            "id": "attack-pattern--9b9d58ea-b451-4964-ac4b-1e0082bd4f9d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -989,7 +989,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--5ae85d82-926e-42b8-bfcf-16f97b30f65a",
+            "id": "attack-pattern--11da0019-1a48-47df-a428-1f313caa4c47",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1036,7 +1036,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--857c72df-95e7-4e00-9764-30895301758a",
+            "id": "attack-pattern--32e95d98-f487-4395-99e1-3433e5baea8d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1073,7 +1073,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--aac17dd3-73a8-4853-84c5-90c933b85e1c",
+            "id": "attack-pattern--fdf40a9b-c87a-43ab-b669-c22e6d53c2b8",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1120,7 +1120,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--d16607b1-4290-4e4d-9d41-b8999ea92d96",
+            "id": "attack-pattern--ac28b3e1-1bd0-491b-a859-6d0100ead69d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -1154,7 +1154,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f4ae6f70-9c00-4037-b80c-d343a2bb7569",
+            "id": "attack-pattern--5b459d6b-6aac-442d-9d7d-8cf14fb2de3f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -1200,7 +1200,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--4a1d9669-f5c9-40af-8f4d-55d6a1ea49b7",
+            "id": "attack-pattern--8d9b6e81-305c-4e62-871a-56ff43be6a8e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -1240,7 +1240,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--ae114184-0561-4871-b61d-f022f9d3eae0",
+            "id": "attack-pattern--8964e259-5a76-496f-9187-b7d15c29a074",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -1283,7 +1283,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--36719ac6-782d-4397-934d-c3f49519683c",
+            "id": "attack-pattern--b68df883-87a8-4bc8-a553-16bbff53c72a",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1337,7 +1337,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--4a997a2f-21b2-4103-8d26-dc546a8e2d5e",
+            "id": "attack-pattern--62686ebd-f6a3-425a-8272-8f79c5d7854d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1380,7 +1380,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--8eef2aa4-c1f3-419e-a366-167d2023c85d",
+            "id": "attack-pattern--0a1f5825-bdcf-4ac5-a7e7-cfe13d22f934",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -1435,7 +1435,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--696e1f11-563f-426f-8c64-85a732f73610",
+            "id": "attack-pattern--ac7f52b1-1a71-4f4c-9fef-4869861b29e5",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-08-18T19:04:59.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -1486,7 +1486,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--66e2e0ee-196c-4629-9786-eb6ac29ef50c",
+            "id": "attack-pattern--0b072ae4-5fe4-4f70-8cd9-f1bf6abc8aba",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1520,7 +1520,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--ebcf3c79-68c1-40b8-916e-88827608e963",
+            "id": "attack-pattern--845c16b9-fc4e-452b-872e-2d1815d392ad",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -1575,7 +1575,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--e747f5f4-e340-4911-9f49-cd09a51290b2",
+            "id": "attack-pattern--574aa812-8ea4-434b-b51a-fb67a4701c6b",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -1622,7 +1622,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--0763e018-2372-4aee-9970-bd1077583219",
+            "id": "attack-pattern--29e152af-b515-46c0-8ee5-e4c53286cc4e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -1673,7 +1673,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--9e25ecc3-3dcc-46b0-ba68-fd093ba0d4fe",
+            "id": "attack-pattern--65591b92-94da-41a4-9409-3f4b30fb37da",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-20T15:00:42.000Z",
@@ -1728,7 +1728,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "id": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -1762,7 +1762,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--4bbe0825-842a-4177-b94a-a55fe15416d5",
+            "id": "attack-pattern--4e55dc6c-f0cd-4577-afb3-db973f1cfee4",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -1815,7 +1815,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--8b26e63e-3944-49c4-8e9f-45309f79e0f8",
+            "id": "attack-pattern--094f30e0-d90c-47ec-949d-097c470183a9",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -1867,7 +1867,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--27c1c59c-015b-4fa9-8abe-c6b76c0812f3",
+            "id": "attack-pattern--3aff39b8-2ccb-488f-8f87-9cb48c4256ca",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -1923,7 +1923,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--98edb860-9342-401c-b112-796d1dd6ca37",
+            "id": "attack-pattern--e543b6cd-c1c0-40df-99a5-3ab28690d06b",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -1977,7 +1977,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--74a347fb-8831-4839-b462-7db25928c759",
+            "id": "attack-pattern--be59a4c2-c00b-49ee-940e-ea26be61bafa",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -2034,7 +2034,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--7b1343f6-45d7-4b2d-aca7-d2dc2be55275",
+            "id": "attack-pattern--8586f122-4c0f-4571-88ac-c7b6cc2593cd",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T22:12:32.000Z",
@@ -2084,7 +2084,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--208f90b7-72c7-45e5-a65f-1a39416b093b",
+            "id": "attack-pattern--eade80d2-e1ce-434f-827a-8324412c4ced",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -2134,7 +2134,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--c1e66d78-977d-466a-a2a5-e114ffdf6eb9",
+            "id": "attack-pattern--7bb9d8a8-3e9a-4551-ad1b-f3f7ee275bb0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -2168,7 +2168,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--948393aa-3e8d-48a8-b642-06ebc72a0f58",
+            "id": "attack-pattern--5f6ea055-96ca-4d3e-ba7a-eb7952a33b1f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -2220,7 +2220,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--18cae7c7-0d02-42e3-b77e-054e0237c082",
+            "id": "attack-pattern--24b45623-3ddc-496b-bafa-f32127dc83c8",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -2273,7 +2273,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--4888ef13-697d-4bc8-823b-bc2d5c5ffa0f",
+            "id": "attack-pattern--5ff11929-204c-4a06-89e7-6c13cd0b8023",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -2327,7 +2327,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--6c98d65d-994f-46d6-84ef-8d5c8e2815a6",
+            "id": "attack-pattern--9bdeb3ed-3192-4c25-b7ee-e0e7b2400545",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -2387,7 +2387,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--76b366ab-ccc3-40b6-a8fb-a9b3fa8ad5ac",
+            "id": "attack-pattern--a97fb0c4-2ae4-4f50-b96c-8007f652ffd9",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -2437,7 +2437,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--77ac9a85-3391-4492-ba25-ff8263c85500",
+            "id": "attack-pattern--5c07480f-949b-4459-aba1-a272193b5b26",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -2471,7 +2471,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--46429c7a-60a4-4bee-9ea7-f076fe0b8adb",
+            "id": "attack-pattern--2c98c491-2985-4991-b9db-a1c1e7615994",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -2523,7 +2523,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--e9e262b3-a355-485b-b478-d582a2f6e7d6",
+            "id": "attack-pattern--70f889b3-cd41-4177-8bff-d22691d4602e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -2575,7 +2575,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--8309b452-a579-4e22-8edc-5ab74d586064",
+            "id": "attack-pattern--d9210297-1194-4292-8416-7ab94dcc9a11",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -2627,7 +2627,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--d1b2699c-ddf3-4682-bd76-61e67ff371b1",
+            "id": "attack-pattern--6155cdf2-448c-4dc9-a679-2b7118182723",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -2678,7 +2678,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--407be6cc-1ade-4cac-871f-410212c15fe2",
+            "id": "attack-pattern--b22a37d2-1268-4139-b012-ec10fc8ca488",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -2712,7 +2712,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--2922b20e-dc06-4365-bf34-5ddff1559e2f",
+            "id": "attack-pattern--777a1101-c222-4156-90a4-e311545db001",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -2762,7 +2762,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f0afb87e-7082-4a8d-ad13-946d1ab57277",
+            "id": "attack-pattern--3830bfda-b828-4504-b0d0-8d3e9f65faf6",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -2812,7 +2812,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--ce14bb55-8b2f-4444-914d-a1d7129ed4f9",
+            "id": "attack-pattern--30e8a996-aaa6-46f7-932c-4eda49090356",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -2846,7 +2846,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--a6eee2f2-67aa-451e-b7de-ffd5bdccc01e",
+            "id": "attack-pattern--8ad532cc-30be-44cd-823f-7deaf726c503",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:25:08.000Z",
@@ -2896,7 +2896,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--c76bac35-b41d-489a-a162-5c5543fd0476",
+            "id": "attack-pattern--16c0a7fc-7252-4bf4-8ea6-7a60ea5cb966",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -2946,7 +2946,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--4356df5c-75e9-48bb-97b8-cbb1b771c1fc",
+            "id": "attack-pattern--61edac02-d1fa-44dd-8334-3df64bb65426",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3001,7 +3001,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--65418e2d-2908-4c9c-9548-817c93e79cc2",
+            "id": "attack-pattern--2b1549dd-a09f-4a9b-88a4-2eff87268528",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3053,7 +3053,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--08dbd72e-6c39-4cf6-a905-f4a8df83a510",
+            "id": "attack-pattern--e20e7837-0dd2-45b6-8265-6835e7079ff5",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3105,7 +3105,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--e728e04a-3b02-4820-bfd2-27540e8038e3",
+            "id": "attack-pattern--b614e8d7-039e-4e99-a1a0-e3ef5ed0ca97",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -3139,7 +3139,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--71617884-b634-4739-98d8-72d8c66ae84c",
+            "id": "attack-pattern--0f01367c-ef9c-438a-b096-448148677c72",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3193,7 +3193,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--303e123b-0806-40bb-87b2-b3cec06c10e9",
+            "id": "attack-pattern--8cb8258c-b751-4b4d-92c2-ae4117ff41af",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3243,7 +3243,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--15dbfb98-209f-4ce6-89bd-afd674f79502",
+            "id": "attack-pattern--772716f5-4852-475a-a631-ae42348b007f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -3277,7 +3277,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--517fa41e-dea0-4673-a0c2-ce1dda312e6d",
+            "id": "attack-pattern--5c447245-3556-4c3d-913b-b7cd74e28039",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3327,7 +3327,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--0db65146-95d3-42e8-92e0-994b5a25ecd4",
+            "id": "attack-pattern--0befda65-df42-4c80-a383-45c5d68ef9f0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3378,7 +3378,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--15cae0bb-d271-47b3-99eb-f26b7c58f15e",
+            "id": "attack-pattern--85398833-61eb-46d4-9c81-69ee89a3d136",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3429,7 +3429,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f031be4d-527b-4a52-81bd-c9a769ed6f8f",
+            "id": "attack-pattern--6c2cf99e-01ee-478b-9aa8-060a8d1f9d52",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -3463,7 +3463,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--39297417-c79d-4196-95be-33c041c6030e",
+            "id": "attack-pattern--5137e13e-c99c-49cf-ad00-9eb9e3344b61",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3513,7 +3513,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--b7a3cf5d-1f16-420f-9e11-4e28da2bd866",
+            "id": "attack-pattern--0a5b9484-01d2-45a7-8e2e-11fdd9d52b3a",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-11-28T17:45:43.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -3563,7 +3563,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f6a37f3c-0498-4175-9c48-73403300a753",
+            "id": "attack-pattern--6cc30162-d68d-4bfc-81be-15ad3e5bdae9",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -3613,7 +3613,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--859a1808-4839-4b3f-85d2-59e7e2168acd",
+            "id": "attack-pattern--e0cc35c1-b058-4544-8ee3-129fc24ade4e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-08-18T19:04:59.000Z",
             "modified": "2024-02-04T22:12:32.000Z",
@@ -3656,7 +3656,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--34fdcffe-f17f-4911-b23a-40ed62b02d75",
+            "id": "attack-pattern--b7670d70-f1c4-4963-8c51-ecf8d7a099a4",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-08-18T19:04:59.000Z",
@@ -3690,7 +3690,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--a974bd46-4297-4e85-9650-88fdc23ce1d6",
+            "id": "attack-pattern--cb6ea575-bc20-4261-a36d-614d59735ced",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-08-18T19:04:59.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -3744,7 +3744,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--a4207f57-4e2c-4885-b882-d05475addeba",
+            "id": "attack-pattern--630791a3-d60e-4c4b-84a8-d9397166876f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -3795,7 +3795,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--fece1801-fe3b-4c86-9357-d172a6d12fbf",
+            "id": "attack-pattern--1c06e6d6-d8c6-4c57-8d66-a73c6bb62ac2",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -3847,7 +3847,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--9f23c15a-a4cf-4a7d-8566-4bf8c15aeccd",
+            "id": "attack-pattern--2fb9a8b8-3141-4de8-bff3-ee36d65be398",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -3881,7 +3881,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--de703d5b-81a4-43b7-b0a7-0397e7d27333",
+            "id": "attack-pattern--aadb4d17-c65a-428b-beea-911c74a0593b",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -3931,7 +3931,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--a431ed6a-9345-4a50-ae09-c6f5d46312e7",
+            "id": "attack-pattern--0ce2adf9-4f8c-4aeb-85aa-db0496b8629c",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:33:04.000Z",
@@ -3983,7 +3983,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f12527c6-0b0a-4c36-b631-db6a8549ce3c",
+            "id": "attack-pattern--ed8c8c59-6a07-4d27-bb0d-e0e3ccf31c33",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -4033,7 +4033,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--16b81a6b-44cc-4a61-aeb1-4344dd01f812",
+            "id": "attack-pattern--5517ec16-8116-4c7f-95d5-2f3a3be35ee2",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-08-18T19:04:59.000Z",
             "modified": "2023-06-12T03:27:03.000Z",
@@ -4085,7 +4085,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--ddb4da34-21cc-4b44-8e3d-f4acf09ee858",
+            "id": "attack-pattern--b0844cbf-878c-4221-a7fc-70c276542fa5",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4137,7 +4137,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--fab33b35-8f44-48ab-bd20-11a63556eb69",
+            "id": "attack-pattern--09109128-664e-4eb5-b891-41935a01d5cf",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -4171,7 +4171,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--b066ff7c-877c-4ded-9a2e-63e0a5e74c5d",
+            "id": "attack-pattern--a6c5dd02-1714-4fd1-8c7b-55b68eaab8fb",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4221,7 +4221,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--9f4542e3-dd0e-428f-a9c6-c2cc28291443",
+            "id": "attack-pattern--f99d7c5e-015e-4aec-809f-c62a392137d1",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4271,7 +4271,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--9eb207ee-8ca4-4ac0-af19-be8ed685259b",
+            "id": "attack-pattern--ff405e31-278c-42db-964c-b36eac195238",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -4305,7 +4305,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--4f42d93a-f36c-4e73-a512-706ef4416df1",
+            "id": "attack-pattern--97dc0499-c809-46e0-8bdf-6e2991e9ee02",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4355,7 +4355,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--9513b7ca-1215-461f-a382-8d4efbc2f8fa",
+            "id": "attack-pattern--88a747d9-fa91-48ca-b7b5-829b13ed0884",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4405,7 +4405,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--c2dfbdf8-fc1b-4072-9f9b-c57798f221ec",
+            "id": "attack-pattern--dba23df3-b5ac-4bb1-b786-8a96d7ff5d61",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-08-18T19:04:59.000Z",
@@ -4439,7 +4439,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--2db86a19-4ed0-4b6b-9a04-6cced72f88db",
+            "id": "attack-pattern--f2dff7cf-8146-4eb2-8875-d7a293b66b5b",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4489,7 +4489,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--c51191fc-9c7d-4743-9ba2-f2418055ee62",
+            "id": "attack-pattern--0d9f6aba-487c-4e0c-a483-97086bdec821",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-08-18T19:04:59.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4540,7 +4540,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--a1a3af98-b8c7-4113-8b35-88e673ca8725",
+            "id": "attack-pattern--89a91ded-a372-4630-b5a8-3e14d91f8408",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4590,7 +4590,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--18ee0f9c-8a75-40cf-8c41-0a51c0046dcb",
+            "id": "attack-pattern--b5f240be-4747-498b-ad69-0be4d1d36f94",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -4624,7 +4624,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--0d376bc2-3e30-4a68-896c-c7e539ccf63e",
+            "id": "attack-pattern--07a590ec-1c21-4b8c-87c7-79cf67c69612",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4679,7 +4679,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--8294948e-908c-468a-9a61-c9cf8bdeb0c5",
+            "id": "attack-pattern--bae42eab-b9f0-4f0e-8227-d4f619e8d679",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
@@ -4731,7 +4731,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+            "id": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2022-07-29T18:07:09.000Z",
@@ -4765,12 +4765,12 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--154ea787-0be0-42bf-8c15-504783c33198",
+            "id": "attack-pattern--fb488db2-63ff-42d9-9495-5ae27fc5a6cd",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:16:53.000Z",
             "name": "Function Application JWT GET Request",
-            "description": "If a Function App is using a Managed Identity, an adversary can modify the logic respond to an HTTP GET request to reveal the Managed Identity's JWT.\n!!! info \"Resource\"",
+            "description": "If a Function App is using a Managed Identity, an adversary can modify the logic respond to an HTTP GET request to reveal the Managed Identity's JWT.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "atrm",
@@ -4817,7 +4817,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--52a514be-41a2-42f1-a785-678e730e96c3",
+            "id": "attack-pattern--b4d2be4f-32c7-45a1-aa47-4292b4891355",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2023-06-12T03:08:06.000Z",
@@ -4872,7 +4872,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--d6ead964-7336-412c-ba4c-51d9daf3591b",
+            "id": "attack-pattern--32407871-8a18-4832-9239-922bcbfc2956",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2022-07-29T18:07:09.000Z",
             "modified": "2024-02-04T22:12:32.000Z",
@@ -4926,7 +4926,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--05be10ab-1734-4eac-8da8-3de6229c964f",
+            "id": "attack-pattern--89575dad-41e5-4c78-9fa1-0ef36d93177e",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -4976,7 +4976,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--fddef5ee-bf0e-4291-bfba-d6ca924c2c66",
+            "id": "attack-pattern--4d4a170a-b5c6-47eb-9e5e-f4d844bdd18c",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5026,7 +5026,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--1e45757b-376a-4874-be56-28ea2cd2dac8",
+            "id": "attack-pattern--212ba8ed-7537-49bb-a562-865d29591ed4",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5060,7 +5060,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--c077a596-e39a-4030-aa7d-1aca2a8095d5",
+            "id": "attack-pattern--c9fcb202-2596-419f-b4b0-a6f2d57579e5",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5110,7 +5110,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--0f91de88-ba27-4d92-ae8c-996d7ae0a7c8",
+            "id": "attack-pattern--001b4b10-7f27-479c-a120-f23ca32d2612",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5160,7 +5160,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--c06b6b60-d273-4c90-954f-410b3a400ad7",
+            "id": "attack-pattern--e9628e70-223d-43a7-a12d-e294331a3bd4",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5194,7 +5194,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--e75e1cfa-0b75-49d5-b5e7-60e32a9a1767",
+            "id": "attack-pattern--43f52b47-ed72-409a-b776-ff8bf53d5cde",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5246,7 +5246,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--d79e32e5-d125-487c-bbf9-33f962046b85",
+            "id": "attack-pattern--3a5a3838-b787-413d-9f8c-5cd9f09f2a51",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -5280,12 +5280,12 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--9c4d85f0-7b58-4c32-af79-7374537d0aa7",
+            "id": "attack-pattern--3df498cb-01bf-4cab-a912-bd1b515ba967",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
             "name": "Storage Account Replication",
-            "description": "!!! info \"Resource\"",
+            "description": "By setting up cross-tenant replication, an adversary may set up replication from one tenant's storage account to an extrenal tenant's storage account.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "atrm",
@@ -5334,7 +5334,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--3ef39639-4aa3-4eb9-9da6-cc290e26ceca",
+            "id": "attack-pattern--4571e48e-28cd-4ca2-b034-24ccd5a89588",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2024-02-04T23:05:59.000Z",
             "modified": "2024-02-04T23:05:59.000Z",
@@ -5368,7 +5368,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--27159ac9-2ab0-4917-814c-0144d240b8b6",
+            "id": "attack-pattern--2d63fbe3-1a4d-4698-bd86-a7a92f4222d0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T15:58:57.000Z",
@@ -5418,7 +5418,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--f2e7474f-14fc-4db8-b1ee-5c0e575bce9b",
+            "id": "attack-pattern--5c870ef4-848b-4bd0-a556-b714e2c7d524",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
             "created": "2023-09-05T15:58:57.000Z",
             "modified": "2023-09-05T19:05:13.000Z",
@@ -5466,13 +5466,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--2a37ffb1-fe7b-4caf-898e-c9e5a02e34c3",
+            "id": "relationship--3705787a-116c-4ed1-8bbb-72e4c0a06779",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138255Z",
-            "modified": "2024-03-01T11:23:56.138255Z",
+            "created": "2024-03-25T08:50:27.912457Z",
+            "modified": "2024-03-25T08:50:27.912457Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--f4ae6f70-9c00-4037-b80c-d343a2bb7569",
-            "target_ref": "attack-pattern--d16607b1-4290-4e4d-9d41-b8999ea92d96",
+            "source_ref": "attack-pattern--5b459d6b-6aac-442d-9d7d-8cf14fb2de3f",
+            "target_ref": "attack-pattern--ac28b3e1-1bd0-491b-a859-6d0100ead69d",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5483,13 +5483,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--05be7a6a-8c8a-4d3c-b62e-847e8effa94e",
+            "id": "relationship--6aa4cafc-d9da-467a-852f-5f894a88eb46",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138343Z",
-            "modified": "2024-03-01T11:23:56.138343Z",
+            "created": "2024-03-25T08:50:27.912545Z",
+            "modified": "2024-03-25T08:50:27.912545Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--4a1d9669-f5c9-40af-8f4d-55d6a1ea49b7",
-            "target_ref": "attack-pattern--d16607b1-4290-4e4d-9d41-b8999ea92d96",
+            "source_ref": "attack-pattern--8d9b6e81-305c-4e62-871a-56ff43be6a8e",
+            "target_ref": "attack-pattern--ac28b3e1-1bd0-491b-a859-6d0100ead69d",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5500,13 +5500,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--b9c2d837-246c-47c5-b8d1-189d1ac53e5e",
+            "id": "relationship--99e356f1-72ca-4be0-9d9a-d985d25e4858",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138413Z",
-            "modified": "2024-03-01T11:23:56.138413Z",
+            "created": "2024-03-25T08:50:27.912609Z",
+            "modified": "2024-03-25T08:50:27.912609Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--ae114184-0561-4871-b61d-f022f9d3eae0",
-            "target_ref": "attack-pattern--d16607b1-4290-4e4d-9d41-b8999ea92d96",
+            "source_ref": "attack-pattern--8964e259-5a76-496f-9187-b7d15c29a074",
+            "target_ref": "attack-pattern--ac28b3e1-1bd0-491b-a859-6d0100ead69d",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5517,13 +5517,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c36dea89-ff42-4c14-b20d-765b44a0d6bc",
+            "id": "relationship--0dae5b00-d648-4a7e-ab1b-e1dffc89a1e5",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138479Z",
-            "modified": "2024-03-01T11:23:56.138479Z",
+            "created": "2024-03-25T08:50:27.912684Z",
+            "modified": "2024-03-25T08:50:27.912684Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--36719ac6-782d-4397-934d-c3f49519683c",
-            "target_ref": "attack-pattern--d16607b1-4290-4e4d-9d41-b8999ea92d96",
+            "source_ref": "attack-pattern--b68df883-87a8-4bc8-a553-16bbff53c72a",
+            "target_ref": "attack-pattern--ac28b3e1-1bd0-491b-a859-6d0100ead69d",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5534,13 +5534,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7ab3b63f-8e6f-45fb-a81a-1d4158cce789",
+            "id": "relationship--33df35df-e2fd-4306-9714-5be660b562e0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138542Z",
-            "modified": "2024-03-01T11:23:56.138542Z",
+            "created": "2024-03-25T08:50:27.912745Z",
+            "modified": "2024-03-25T08:50:27.912745Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--ebcf3c79-68c1-40b8-916e-88827608e963",
-            "target_ref": "attack-pattern--66e2e0ee-196c-4629-9786-eb6ac29ef50c",
+            "source_ref": "attack-pattern--845c16b9-fc4e-452b-872e-2d1815d392ad",
+            "target_ref": "attack-pattern--0b072ae4-5fe4-4f70-8cd9-f1bf6abc8aba",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5551,13 +5551,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--184bb62c-e13b-4e52-806d-2f741096aaac",
+            "id": "relationship--04ae7330-75b2-417b-905d-ae8ed01226da",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138601Z",
-            "modified": "2024-03-01T11:23:56.138601Z",
+            "created": "2024-03-25T08:50:27.912806Z",
+            "modified": "2024-03-25T08:50:27.912806Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--e747f5f4-e340-4911-9f49-cd09a51290b2",
-            "target_ref": "attack-pattern--66e2e0ee-196c-4629-9786-eb6ac29ef50c",
+            "source_ref": "attack-pattern--574aa812-8ea4-434b-b51a-fb67a4701c6b",
+            "target_ref": "attack-pattern--0b072ae4-5fe4-4f70-8cd9-f1bf6abc8aba",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5568,13 +5568,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c2008259-78db-4a9e-80da-d594a52585d1",
+            "id": "relationship--a87ddbb3-6d1d-43c3-8038-dcec375086f2",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138662Z",
-            "modified": "2024-03-01T11:23:56.138662Z",
+            "created": "2024-03-25T08:50:27.912867Z",
+            "modified": "2024-03-25T08:50:27.912867Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--0763e018-2372-4aee-9970-bd1077583219",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--29e152af-b515-46c0-8ee5-e4c53286cc4e",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5585,13 +5585,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--3d5cd7f8-ecf3-441b-8ca2-8de5db167c06",
+            "id": "relationship--2e24ea6f-911a-4934-ac99-9eb134e5951c",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138724Z",
-            "modified": "2024-03-01T11:23:56.138724Z",
+            "created": "2024-03-25T08:50:27.912927Z",
+            "modified": "2024-03-25T08:50:27.912927Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--9e25ecc3-3dcc-46b0-ba68-fd093ba0d4fe",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--65591b92-94da-41a4-9409-3f4b30fb37da",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5602,13 +5602,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--e27728f7-9ace-4842-8e88-96dea1bea83b",
+            "id": "relationship--5d3b607c-b467-4363-80b8-87cdb4dc11c4",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138784Z",
-            "modified": "2024-03-01T11:23:56.138784Z",
+            "created": "2024-03-25T08:50:27.912996Z",
+            "modified": "2024-03-25T08:50:27.912996Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--4bbe0825-842a-4177-b94a-a55fe15416d5",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--4e55dc6c-f0cd-4577-afb3-db973f1cfee4",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5619,13 +5619,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--bd1571ec-c655-4ef2-8957-595c295e18a2",
+            "id": "relationship--1babad64-07d7-406b-ae70-b3114cb39e28",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138843Z",
-            "modified": "2024-03-01T11:23:56.138843Z",
+            "created": "2024-03-25T08:50:27.913055Z",
+            "modified": "2024-03-25T08:50:27.913055Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--8b26e63e-3944-49c4-8e9f-45309f79e0f8",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--094f30e0-d90c-47ec-949d-097c470183a9",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5636,13 +5636,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ae0046f8-fa7d-4ad1-a7e8-a889cc4094b8",
+            "id": "relationship--b31ff93b-fb3e-48b4-8e56-585e72f460e3",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138902Z",
-            "modified": "2024-03-01T11:23:56.138902Z",
+            "created": "2024-03-25T08:50:27.913112Z",
+            "modified": "2024-03-25T08:50:27.913112Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--27c1c59c-015b-4fa9-8abe-c6b76c0812f3",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--3aff39b8-2ccb-488f-8f87-9cb48c4256ca",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5653,13 +5653,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--029559ac-6507-490d-b685-cb7ac5c01d88",
+            "id": "relationship--ede2c56f-c09b-4f15-9958-585ffd1b9382",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.138959Z",
-            "modified": "2024-03-01T11:23:56.138959Z",
+            "created": "2024-03-25T08:50:27.913176Z",
+            "modified": "2024-03-25T08:50:27.913176Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--98edb860-9342-401c-b112-796d1dd6ca37",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--e543b6cd-c1c0-40df-99a5-3ab28690d06b",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5670,13 +5670,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--fc711a2c-7bf4-4816-b09a-6433a33592cd",
+            "id": "relationship--a904c1be-d409-4ff9-93bc-ae737dba9e93",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139016Z",
-            "modified": "2024-03-01T11:23:56.139016Z",
+            "created": "2024-03-25T08:50:27.913235Z",
+            "modified": "2024-03-25T08:50:27.913235Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--74a347fb-8831-4839-b462-7db25928c759",
-            "target_ref": "attack-pattern--b7debb2e-6feb-48ca-a72b-e4139d7ffca3",
+            "source_ref": "attack-pattern--be59a4c2-c00b-49ee-940e-ea26be61bafa",
+            "target_ref": "attack-pattern--c979173f-9f72-4a6d-8eb7-c955a688544e",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5687,13 +5687,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--501e2671-11e9-413f-91d5-376603d5fe3c",
+            "id": "relationship--359476a1-9cef-459d-8541-0490c237e0ec",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139074Z",
-            "modified": "2024-03-01T11:23:56.139074Z",
+            "created": "2024-03-25T08:50:27.913296Z",
+            "modified": "2024-03-25T08:50:27.913296Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--7b1343f6-45d7-4b2d-aca7-d2dc2be55275",
-            "target_ref": "attack-pattern--c1e66d78-977d-466a-a2a5-e114ffdf6eb9",
+            "source_ref": "attack-pattern--8586f122-4c0f-4571-88ac-c7b6cc2593cd",
+            "target_ref": "attack-pattern--7bb9d8a8-3e9a-4551-ad1b-f3f7ee275bb0",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5704,13 +5704,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--08fccc32-126e-42bb-9a02-b08e11936245",
+            "id": "relationship--37c0b97f-ce34-408b-9410-5a8253945774",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139136Z",
-            "modified": "2024-03-01T11:23:56.139136Z",
+            "created": "2024-03-25T08:50:27.913354Z",
+            "modified": "2024-03-25T08:50:27.913354Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--208f90b7-72c7-45e5-a65f-1a39416b093b",
-            "target_ref": "attack-pattern--c1e66d78-977d-466a-a2a5-e114ffdf6eb9",
+            "source_ref": "attack-pattern--eade80d2-e1ce-434f-827a-8324412c4ced",
+            "target_ref": "attack-pattern--7bb9d8a8-3e9a-4551-ad1b-f3f7ee275bb0",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5721,13 +5721,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--40bf9f61-1622-4021-b607-8faf48f989ae",
+            "id": "relationship--7cf449a9-7e3d-49ce-813b-5721f162ee49",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139193Z",
-            "modified": "2024-03-01T11:23:56.139193Z",
+            "created": "2024-03-25T08:50:27.913412Z",
+            "modified": "2024-03-25T08:50:27.913412Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--948393aa-3e8d-48a8-b642-06ebc72a0f58",
-            "target_ref": "attack-pattern--c1e66d78-977d-466a-a2a5-e114ffdf6eb9",
+            "source_ref": "attack-pattern--5f6ea055-96ca-4d3e-ba7a-eb7952a33b1f",
+            "target_ref": "attack-pattern--7bb9d8a8-3e9a-4551-ad1b-f3f7ee275bb0",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5738,13 +5738,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ee653758-efa0-4c0a-a30b-1a18b5f82ad7",
+            "id": "relationship--a6e9aa46-520f-4a3c-bd91-fa6f31a28035",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139251Z",
-            "modified": "2024-03-01T11:23:56.139251Z",
+            "created": "2024-03-25T08:50:27.913476Z",
+            "modified": "2024-03-25T08:50:27.913476Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--18cae7c7-0d02-42e3-b77e-054e0237c082",
-            "target_ref": "attack-pattern--c1e66d78-977d-466a-a2a5-e114ffdf6eb9",
+            "source_ref": "attack-pattern--24b45623-3ddc-496b-bafa-f32127dc83c8",
+            "target_ref": "attack-pattern--7bb9d8a8-3e9a-4551-ad1b-f3f7ee275bb0",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5755,13 +5755,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7205d2fd-dcf0-42d0-90f1-be6592e030e9",
+            "id": "relationship--ef17129a-351d-42d4-97d8-cd6d03c5bef6",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139324Z",
-            "modified": "2024-03-01T11:23:56.139324Z",
+            "created": "2024-03-25T08:50:27.913533Z",
+            "modified": "2024-03-25T08:50:27.913533Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--76b366ab-ccc3-40b6-a8fb-a9b3fa8ad5ac",
-            "target_ref": "attack-pattern--77ac9a85-3391-4492-ba25-ff8263c85500",
+            "source_ref": "attack-pattern--a97fb0c4-2ae4-4f50-b96c-8007f652ffd9",
+            "target_ref": "attack-pattern--5c07480f-949b-4459-aba1-a272193b5b26",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5772,13 +5772,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--8eaea6f3-72a2-4509-acf9-713242a3c9e2",
+            "id": "relationship--f7f1063f-59d4-4339-ac13-b96a59388fb3",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139383Z",
-            "modified": "2024-03-01T11:23:56.139383Z",
+            "created": "2024-03-25T08:50:27.913589Z",
+            "modified": "2024-03-25T08:50:27.913589Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--46429c7a-60a4-4bee-9ea7-f076fe0b8adb",
-            "target_ref": "attack-pattern--77ac9a85-3391-4492-ba25-ff8263c85500",
+            "source_ref": "attack-pattern--2c98c491-2985-4991-b9db-a1c1e7615994",
+            "target_ref": "attack-pattern--5c07480f-949b-4459-aba1-a272193b5b26",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5789,13 +5789,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--32429187-928b-49f7-8dd8-8f754e65f1a7",
+            "id": "relationship--f7e1fb1d-da85-4635-b357-c0159b25d1cd",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.13945Z",
-            "modified": "2024-03-01T11:23:56.13945Z",
+            "created": "2024-03-25T08:50:27.91365Z",
+            "modified": "2024-03-25T08:50:27.91365Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--e9e262b3-a355-485b-b478-d582a2f6e7d6",
-            "target_ref": "attack-pattern--77ac9a85-3391-4492-ba25-ff8263c85500",
+            "source_ref": "attack-pattern--70f889b3-cd41-4177-8bff-d22691d4602e",
+            "target_ref": "attack-pattern--5c07480f-949b-4459-aba1-a272193b5b26",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5806,13 +5806,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--c29643ee-cc63-4f43-ac4c-646bed01fe0f",
+            "id": "relationship--18474824-7223-4320-94ec-9d864d3b0162",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139511Z",
-            "modified": "2024-03-01T11:23:56.139511Z",
+            "created": "2024-03-25T08:50:27.913706Z",
+            "modified": "2024-03-25T08:50:27.913706Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--8309b452-a579-4e22-8edc-5ab74d586064",
-            "target_ref": "attack-pattern--77ac9a85-3391-4492-ba25-ff8263c85500",
+            "source_ref": "attack-pattern--d9210297-1194-4292-8416-7ab94dcc9a11",
+            "target_ref": "attack-pattern--5c07480f-949b-4459-aba1-a272193b5b26",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5823,13 +5823,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ec860e84-69ef-4806-9d7a-c5535d539513",
+            "id": "relationship--6f22cf11-b3f6-423b-b143-e6376ed249ec",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139569Z",
-            "modified": "2024-03-01T11:23:56.139569Z",
+            "created": "2024-03-25T08:50:27.913766Z",
+            "modified": "2024-03-25T08:50:27.913766Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--d1b2699c-ddf3-4682-bd76-61e67ff371b1",
-            "target_ref": "attack-pattern--407be6cc-1ade-4cac-871f-410212c15fe2",
+            "source_ref": "attack-pattern--6155cdf2-448c-4dc9-a679-2b7118182723",
+            "target_ref": "attack-pattern--b22a37d2-1268-4139-b012-ec10fc8ca488",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5840,13 +5840,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ee5e4a77-ad2d-4d0b-bce0-1b1b1e33f07e",
+            "id": "relationship--98c2d2f4-96e0-4fcc-8aba-804cf0cef55d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139628Z",
-            "modified": "2024-03-01T11:23:56.139628Z",
+            "created": "2024-03-25T08:50:27.913824Z",
+            "modified": "2024-03-25T08:50:27.913824Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--f0afb87e-7082-4a8d-ad13-946d1ab57277",
-            "target_ref": "attack-pattern--ce14bb55-8b2f-4444-914d-a1d7129ed4f9",
+            "source_ref": "attack-pattern--3830bfda-b828-4504-b0d0-8d3e9f65faf6",
+            "target_ref": "attack-pattern--30e8a996-aaa6-46f7-932c-4eda49090356",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5857,13 +5857,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--85b1da49-068b-44e1-9033-540e759bb757",
+            "id": "relationship--e9a622d9-8e35-43ee-837d-6f796efa7ee1",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139685Z",
-            "modified": "2024-03-01T11:23:56.139685Z",
+            "created": "2024-03-25T08:50:27.913881Z",
+            "modified": "2024-03-25T08:50:27.913881Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--a6eee2f2-67aa-451e-b7de-ffd5bdccc01e",
-            "target_ref": "attack-pattern--ce14bb55-8b2f-4444-914d-a1d7129ed4f9",
+            "source_ref": "attack-pattern--8ad532cc-30be-44cd-823f-7deaf726c503",
+            "target_ref": "attack-pattern--30e8a996-aaa6-46f7-932c-4eda49090356",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5874,13 +5874,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d159c8db-185f-4d2c-b883-0582c77d57c7",
+            "id": "relationship--ba917694-51d7-4e70-a42b-6bc8381d2ed0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139741Z",
-            "modified": "2024-03-01T11:23:56.139741Z",
+            "created": "2024-03-25T08:50:27.913937Z",
+            "modified": "2024-03-25T08:50:27.913937Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--c76bac35-b41d-489a-a162-5c5543fd0476",
-            "target_ref": "attack-pattern--ce14bb55-8b2f-4444-914d-a1d7129ed4f9",
+            "source_ref": "attack-pattern--16c0a7fc-7252-4bf4-8ea6-7a60ea5cb966",
+            "target_ref": "attack-pattern--30e8a996-aaa6-46f7-932c-4eda49090356",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5891,13 +5891,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--1d3a11c2-0bec-4ebb-bfa7-d768ddc194cd",
+            "id": "relationship--b43ebdc4-8060-4fde-8cbc-eff948ce289c",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139805Z",
-            "modified": "2024-03-01T11:23:56.139805Z",
+            "created": "2024-03-25T08:50:27.913996Z",
+            "modified": "2024-03-25T08:50:27.913996Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--4356df5c-75e9-48bb-97b8-cbb1b771c1fc",
-            "target_ref": "attack-pattern--e728e04a-3b02-4820-bfd2-27540e8038e3",
+            "source_ref": "attack-pattern--61edac02-d1fa-44dd-8334-3df64bb65426",
+            "target_ref": "attack-pattern--b614e8d7-039e-4e99-a1a0-e3ef5ed0ca97",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5908,13 +5908,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--03b7b959-de80-42a6-bdc3-086473942af7",
+            "id": "relationship--c058b2b0-7946-4d44-8a13-f4d2730b0572",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139861Z",
-            "modified": "2024-03-01T11:23:56.139861Z",
+            "created": "2024-03-25T08:50:27.914057Z",
+            "modified": "2024-03-25T08:50:27.914057Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--65418e2d-2908-4c9c-9548-817c93e79cc2",
-            "target_ref": "attack-pattern--e728e04a-3b02-4820-bfd2-27540e8038e3",
+            "source_ref": "attack-pattern--2b1549dd-a09f-4a9b-88a4-2eff87268528",
+            "target_ref": "attack-pattern--b614e8d7-039e-4e99-a1a0-e3ef5ed0ca97",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5925,13 +5925,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--69bffada-cea3-457c-a4a4-afdabb3b82bc",
+            "id": "relationship--1927b5ec-59fa-470c-b6a5-b902ee7ff983",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139919Z",
-            "modified": "2024-03-01T11:23:56.139919Z",
+            "created": "2024-03-25T08:50:27.914122Z",
+            "modified": "2024-03-25T08:50:27.914122Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--08dbd72e-6c39-4cf6-a905-f4a8df83a510",
-            "target_ref": "attack-pattern--e728e04a-3b02-4820-bfd2-27540e8038e3",
+            "source_ref": "attack-pattern--e20e7837-0dd2-45b6-8265-6835e7079ff5",
+            "target_ref": "attack-pattern--b614e8d7-039e-4e99-a1a0-e3ef5ed0ca97",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5942,13 +5942,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--825c8ad1-1ac7-48ba-a803-cfe06af7ec7f",
+            "id": "relationship--b6ca5145-ce19-49cf-9af9-ed9d8fa678e0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.139975Z",
-            "modified": "2024-03-01T11:23:56.139975Z",
+            "created": "2024-03-25T08:50:27.91418Z",
+            "modified": "2024-03-25T08:50:27.91418Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--71617884-b634-4739-98d8-72d8c66ae84c",
-            "target_ref": "attack-pattern--e728e04a-3b02-4820-bfd2-27540e8038e3",
+            "source_ref": "attack-pattern--0f01367c-ef9c-438a-b096-448148677c72",
+            "target_ref": "attack-pattern--b614e8d7-039e-4e99-a1a0-e3ef5ed0ca97",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5959,13 +5959,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--0a3652fa-9d85-4d0a-8860-005c50b96ee6",
+            "id": "relationship--05911268-8eef-4e2c-bdc3-7f2d3331f569",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140033Z",
-            "modified": "2024-03-01T11:23:56.140033Z",
+            "created": "2024-03-25T08:50:27.914237Z",
+            "modified": "2024-03-25T08:50:27.914237Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--517fa41e-dea0-4673-a0c2-ce1dda312e6d",
-            "target_ref": "attack-pattern--15dbfb98-209f-4ce6-89bd-afd674f79502",
+            "source_ref": "attack-pattern--5c447245-3556-4c3d-913b-b7cd74e28039",
+            "target_ref": "attack-pattern--772716f5-4852-475a-a631-ae42348b007f",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5976,13 +5976,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--be69a6ec-75f2-4ac5-9cc8-f5a386d9deec",
+            "id": "relationship--bd4c6906-fcad-4ce2-b06b-67324948fe4b",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140091Z",
-            "modified": "2024-03-01T11:23:56.140091Z",
+            "created": "2024-03-25T08:50:27.914294Z",
+            "modified": "2024-03-25T08:50:27.914294Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--0db65146-95d3-42e8-92e0-994b5a25ecd4",
-            "target_ref": "attack-pattern--f031be4d-527b-4a52-81bd-c9a769ed6f8f",
+            "source_ref": "attack-pattern--0befda65-df42-4c80-a383-45c5d68ef9f0",
+            "target_ref": "attack-pattern--6c2cf99e-01ee-478b-9aa8-060a8d1f9d52",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -5993,13 +5993,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--5f4689f4-c553-4170-8af9-85ffb796677e",
+            "id": "relationship--5e51e9d6-cd13-4624-8959-5beeeb2ff62c",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140147Z",
-            "modified": "2024-03-01T11:23:56.140147Z",
+            "created": "2024-03-25T08:50:27.914351Z",
+            "modified": "2024-03-25T08:50:27.914351Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--15cae0bb-d271-47b3-99eb-f26b7c58f15e",
-            "target_ref": "attack-pattern--f031be4d-527b-4a52-81bd-c9a769ed6f8f",
+            "source_ref": "attack-pattern--85398833-61eb-46d4-9c81-69ee89a3d136",
+            "target_ref": "attack-pattern--6c2cf99e-01ee-478b-9aa8-060a8d1f9d52",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6010,13 +6010,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9a869bf6-f24d-4694-a1b4-dc09cddfe06e",
+            "id": "relationship--01ac9de6-7db1-472a-b65d-1ecef7da0371",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140202Z",
-            "modified": "2024-03-01T11:23:56.140202Z",
+            "created": "2024-03-25T08:50:27.914407Z",
+            "modified": "2024-03-25T08:50:27.914407Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--39297417-c79d-4196-95be-33c041c6030e",
-            "target_ref": "attack-pattern--f031be4d-527b-4a52-81bd-c9a769ed6f8f",
+            "source_ref": "attack-pattern--5137e13e-c99c-49cf-ad00-9eb9e3344b61",
+            "target_ref": "attack-pattern--6c2cf99e-01ee-478b-9aa8-060a8d1f9d52",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6027,13 +6027,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d0e8071b-47fe-4088-9588-df70d68c95c5",
+            "id": "relationship--7f6b05ce-3274-4f78-93fb-e4196cc903bf",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140291Z",
-            "modified": "2024-03-01T11:23:56.140291Z",
+            "created": "2024-03-25T08:50:27.914479Z",
+            "modified": "2024-03-25T08:50:27.914479Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--f6a37f3c-0498-4175-9c48-73403300a753",
-            "target_ref": "attack-pattern--34fdcffe-f17f-4911-b23a-40ed62b02d75",
+            "source_ref": "attack-pattern--6cc30162-d68d-4bfc-81be-15ad3e5bdae9",
+            "target_ref": "attack-pattern--b7670d70-f1c4-4963-8c51-ecf8d7a099a4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6044,13 +6044,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ae719274-72d5-4ec0-a8d9-217f72c6ed7a",
+            "id": "relationship--aa4d33d8-56ab-45a0-8093-89e64857c91d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140388Z",
-            "modified": "2024-03-01T11:23:56.140388Z",
+            "created": "2024-03-25T08:50:27.914537Z",
+            "modified": "2024-03-25T08:50:27.914537Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--859a1808-4839-4b3f-85d2-59e7e2168acd",
-            "target_ref": "attack-pattern--34fdcffe-f17f-4911-b23a-40ed62b02d75",
+            "source_ref": "attack-pattern--e0cc35c1-b058-4544-8ee3-129fc24ade4e",
+            "target_ref": "attack-pattern--b7670d70-f1c4-4963-8c51-ecf8d7a099a4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6061,13 +6061,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--4af4b970-f5fe-4e32-8c65-b41672677580",
+            "id": "relationship--f4c2878f-c988-4246-aa5d-d3cfc701cb00",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140458Z",
-            "modified": "2024-03-01T11:23:56.140458Z",
+            "created": "2024-03-25T08:50:27.914597Z",
+            "modified": "2024-03-25T08:50:27.914597Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--a974bd46-4297-4e85-9650-88fdc23ce1d6",
-            "target_ref": "attack-pattern--34fdcffe-f17f-4911-b23a-40ed62b02d75",
+            "source_ref": "attack-pattern--cb6ea575-bc20-4261-a36d-614d59735ced",
+            "target_ref": "attack-pattern--b7670d70-f1c4-4963-8c51-ecf8d7a099a4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6078,13 +6078,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--f6da3472-d8c9-48b4-b878-c4ddffdf54f9",
+            "id": "relationship--a11c1e52-76bd-4214-a92c-da3b2954e608",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140523Z",
-            "modified": "2024-03-01T11:23:56.140523Z",
+            "created": "2024-03-25T08:50:27.914655Z",
+            "modified": "2024-03-25T08:50:27.914655Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--a4207f57-4e2c-4885-b882-d05475addeba",
-            "target_ref": "attack-pattern--34fdcffe-f17f-4911-b23a-40ed62b02d75",
+            "source_ref": "attack-pattern--630791a3-d60e-4c4b-84a8-d9397166876f",
+            "target_ref": "attack-pattern--b7670d70-f1c4-4963-8c51-ecf8d7a099a4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6095,13 +6095,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--f39ee728-b625-4a8c-a7e1-f5cca669f5ec",
+            "id": "relationship--152ccf46-deb4-4b22-8a8a-ee1f7dada4a1",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140591Z",
-            "modified": "2024-03-01T11:23:56.140591Z",
+            "created": "2024-03-25T08:50:27.914712Z",
+            "modified": "2024-03-25T08:50:27.914712Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--fece1801-fe3b-4c86-9357-d172a6d12fbf",
-            "target_ref": "attack-pattern--9f23c15a-a4cf-4a7d-8566-4bf8c15aeccd",
+            "source_ref": "attack-pattern--1c06e6d6-d8c6-4c57-8d66-a73c6bb62ac2",
+            "target_ref": "attack-pattern--2fb9a8b8-3141-4de8-bff3-ee36d65be398",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6112,13 +6112,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--f43a5061-65d3-4328-9a20-482770c2bd0e",
+            "id": "relationship--afdbd282-c7d1-40f8-bd4c-0027b78424be",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.14065Z",
-            "modified": "2024-03-01T11:23:56.14065Z",
+            "created": "2024-03-25T08:50:27.914772Z",
+            "modified": "2024-03-25T08:50:27.914772Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--de703d5b-81a4-43b7-b0a7-0397e7d27333",
-            "target_ref": "attack-pattern--9f23c15a-a4cf-4a7d-8566-4bf8c15aeccd",
+            "source_ref": "attack-pattern--aadb4d17-c65a-428b-beea-911c74a0593b",
+            "target_ref": "attack-pattern--2fb9a8b8-3141-4de8-bff3-ee36d65be398",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6129,13 +6129,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--23d0bd94-b3fc-42b6-addf-87917f31d581",
+            "id": "relationship--555e471c-9107-40a6-8220-16c5779cec53",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140713Z",
-            "modified": "2024-03-01T11:23:56.140713Z",
+            "created": "2024-03-25T08:50:27.914828Z",
+            "modified": "2024-03-25T08:50:27.914828Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--a431ed6a-9345-4a50-ae09-c6f5d46312e7",
-            "target_ref": "attack-pattern--9f23c15a-a4cf-4a7d-8566-4bf8c15aeccd",
+            "source_ref": "attack-pattern--0ce2adf9-4f8c-4aeb-85aa-db0496b8629c",
+            "target_ref": "attack-pattern--2fb9a8b8-3141-4de8-bff3-ee36d65be398",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6146,13 +6146,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--24e70ed8-d5e9-494d-ba62-e71b58f81eff",
+            "id": "relationship--dd591950-1d83-4e87-9ffa-046022923f21",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140775Z",
-            "modified": "2024-03-01T11:23:56.140775Z",
+            "created": "2024-03-25T08:50:27.914885Z",
+            "modified": "2024-03-25T08:50:27.914885Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--ddb4da34-21cc-4b44-8e3d-f4acf09ee858",
-            "target_ref": "attack-pattern--fab33b35-8f44-48ab-bd20-11a63556eb69",
+            "source_ref": "attack-pattern--b0844cbf-878c-4221-a7fc-70c276542fa5",
+            "target_ref": "attack-pattern--09109128-664e-4eb5-b891-41935a01d5cf",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6163,13 +6163,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7ac590ce-ffa5-4213-86b6-f78e198e6c6d",
+            "id": "relationship--19d8ce5b-1813-44a3-9565-6ee26598e9d0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140833Z",
-            "modified": "2024-03-01T11:23:56.140833Z",
+            "created": "2024-03-25T08:50:27.914941Z",
+            "modified": "2024-03-25T08:50:27.914941Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--b066ff7c-877c-4ded-9a2e-63e0a5e74c5d",
-            "target_ref": "attack-pattern--9eb207ee-8ca4-4ac0-af19-be8ed685259b",
+            "source_ref": "attack-pattern--a6c5dd02-1714-4fd1-8c7b-55b68eaab8fb",
+            "target_ref": "attack-pattern--ff405e31-278c-42db-964c-b36eac195238",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6180,13 +6180,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--e8b659ca-a310-4f07-b544-f9d7b280c539",
+            "id": "relationship--0e407f9f-a496-489a-8ae0-51f4e813894f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.140894Z",
-            "modified": "2024-03-01T11:23:56.140894Z",
+            "created": "2024-03-25T08:50:27.915005Z",
+            "modified": "2024-03-25T08:50:27.915005Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--9f4542e3-dd0e-428f-a9c6-c2cc28291443",
-            "target_ref": "attack-pattern--9eb207ee-8ca4-4ac0-af19-be8ed685259b",
+            "source_ref": "attack-pattern--f99d7c5e-015e-4aec-809f-c62a392137d1",
+            "target_ref": "attack-pattern--ff405e31-278c-42db-964c-b36eac195238",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6197,13 +6197,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--4d014f8c-a501-4ea2-9d84-fcaf543e894e",
+            "id": "relationship--fe134f38-5772-4982-8ca0-3fa819589a7f",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.14096Z",
-            "modified": "2024-03-01T11:23:56.14096Z",
+            "created": "2024-03-25T08:50:27.915069Z",
+            "modified": "2024-03-25T08:50:27.915069Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--4f42d93a-f36c-4e73-a512-706ef4416df1",
-            "target_ref": "attack-pattern--9eb207ee-8ca4-4ac0-af19-be8ed685259b",
+            "source_ref": "attack-pattern--97dc0499-c809-46e0-8bdf-6e2991e9ee02",
+            "target_ref": "attack-pattern--ff405e31-278c-42db-964c-b36eac195238",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6214,13 +6214,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--6401be2b-9132-43ac-8aef-8bcf11361680",
+            "id": "relationship--59e501a0-012e-4029-a77a-5c08502b03da",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141017Z",
-            "modified": "2024-03-01T11:23:56.141017Z",
+            "created": "2024-03-25T08:50:27.915126Z",
+            "modified": "2024-03-25T08:50:27.915126Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--9513b7ca-1215-461f-a382-8d4efbc2f8fa",
-            "target_ref": "attack-pattern--c2dfbdf8-fc1b-4072-9f9b-c57798f221ec",
+            "source_ref": "attack-pattern--88a747d9-fa91-48ca-b7b5-829b13ed0884",
+            "target_ref": "attack-pattern--dba23df3-b5ac-4bb1-b786-8a96d7ff5d61",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6231,13 +6231,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--6f1b227f-2b99-47f9-9743-45c1b360e886",
+            "id": "relationship--6231f2f6-6262-46df-893b-7b6393711d6d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141074Z",
-            "modified": "2024-03-01T11:23:56.141074Z",
+            "created": "2024-03-25T08:50:27.915186Z",
+            "modified": "2024-03-25T08:50:27.915186Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--2db86a19-4ed0-4b6b-9a04-6cced72f88db",
-            "target_ref": "attack-pattern--c2dfbdf8-fc1b-4072-9f9b-c57798f221ec",
+            "source_ref": "attack-pattern--f2dff7cf-8146-4eb2-8875-d7a293b66b5b",
+            "target_ref": "attack-pattern--dba23df3-b5ac-4bb1-b786-8a96d7ff5d61",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6248,13 +6248,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7975ab4e-6f57-4aad-9332-d277072c9188",
+            "id": "relationship--34050712-ec46-4218-9e63-c2a2cec3cdd8",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141129Z",
-            "modified": "2024-03-01T11:23:56.141129Z",
+            "created": "2024-03-25T08:50:27.915243Z",
+            "modified": "2024-03-25T08:50:27.915243Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--c51191fc-9c7d-4743-9ba2-f2418055ee62",
-            "target_ref": "attack-pattern--c2dfbdf8-fc1b-4072-9f9b-c57798f221ec",
+            "source_ref": "attack-pattern--0d9f6aba-487c-4e0c-a483-97086bdec821",
+            "target_ref": "attack-pattern--dba23df3-b5ac-4bb1-b786-8a96d7ff5d61",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6265,13 +6265,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--dcb25264-1769-468a-b4e1-8929aa1c2a40",
+            "id": "relationship--faee8d68-a556-4d0c-986d-fb112d1bedba",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141188Z",
-            "modified": "2024-03-01T11:23:56.141188Z",
+            "created": "2024-03-25T08:50:27.9153Z",
+            "modified": "2024-03-25T08:50:27.9153Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--a1a3af98-b8c7-4113-8b35-88e673ca8725",
-            "target_ref": "attack-pattern--18ee0f9c-8a75-40cf-8c41-0a51c0046dcb",
+            "source_ref": "attack-pattern--89a91ded-a372-4630-b5a8-3e14d91f8408",
+            "target_ref": "attack-pattern--b5f240be-4747-498b-ad69-0be4d1d36f94",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6282,13 +6282,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--d2f12839-d681-4d7e-9710-ed931c32ff14",
+            "id": "relationship--b77e88a1-644a-4add-9c03-1ac64eef7178",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141244Z",
-            "modified": "2024-03-01T11:23:56.141244Z",
+            "created": "2024-03-25T08:50:27.915356Z",
+            "modified": "2024-03-25T08:50:27.915356Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--0d376bc2-3e30-4a68-896c-c7e539ccf63e",
-            "target_ref": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+            "source_ref": "attack-pattern--07a590ec-1c21-4b8c-87c7-79cf67c69612",
+            "target_ref": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6299,13 +6299,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--19aa1a0e-74cf-47af-a218-05c16d47d151",
+            "id": "relationship--f44c90a2-a87c-4da6-8b4a-0e57025d2ff7",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141304Z",
-            "modified": "2024-03-01T11:23:56.141304Z",
+            "created": "2024-03-25T08:50:27.915412Z",
+            "modified": "2024-03-25T08:50:27.915412Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--8294948e-908c-468a-9a61-c9cf8bdeb0c5",
-            "target_ref": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+            "source_ref": "attack-pattern--bae42eab-b9f0-4f0e-8227-d4f619e8d679",
+            "target_ref": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6316,13 +6316,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--b423c2eb-5ccb-429d-ba2d-86e9023ea70f",
+            "id": "relationship--3156e2fa-cb53-4bd6-80af-37858731a439",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.14136Z",
-            "modified": "2024-03-01T11:23:56.14136Z",
+            "created": "2024-03-25T08:50:27.915479Z",
+            "modified": "2024-03-25T08:50:27.915479Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--154ea787-0be0-42bf-8c15-504783c33198",
-            "target_ref": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+            "source_ref": "attack-pattern--fb488db2-63ff-42d9-9495-5ae27fc5a6cd",
+            "target_ref": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6333,13 +6333,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--1311e2f9-b0c3-4b18-89fe-52578678ed51",
+            "id": "relationship--04963686-e46e-4722-8d8a-3f9a3215009d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141418Z",
-            "modified": "2024-03-01T11:23:56.141418Z",
+            "created": "2024-03-25T08:50:27.915536Z",
+            "modified": "2024-03-25T08:50:27.915536Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--52a514be-41a2-42f1-a785-678e730e96c3",
-            "target_ref": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+            "source_ref": "attack-pattern--b4d2be4f-32c7-45a1-aa47-4292b4891355",
+            "target_ref": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6350,13 +6350,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--cdee3b43-e4b0-4a04-a321-808c6a0e4199",
+            "id": "relationship--21c23524-1b66-4875-b145-2e7e8c8d4029",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141474Z",
-            "modified": "2024-03-01T11:23:56.141474Z",
+            "created": "2024-03-25T08:50:27.915592Z",
+            "modified": "2024-03-25T08:50:27.915592Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--d6ead964-7336-412c-ba4c-51d9daf3591b",
-            "target_ref": "attack-pattern--75879bec-69fb-4d3f-8931-49d08660aa0e",
+            "source_ref": "attack-pattern--32407871-8a18-4832-9239-922bcbfc2956",
+            "target_ref": "attack-pattern--2f0fb949-f307-45be-8989-a60da6f5ca06",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6367,13 +6367,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--a1a48aa3-d46f-4a45-8eba-25e7932ada92",
+            "id": "relationship--679acef4-bab3-4e1d-99e7-c4edac3f112b",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.141534Z",
-            "modified": "2024-03-01T11:23:56.141534Z",
+            "created": "2024-03-25T08:50:27.915649Z",
+            "modified": "2024-03-25T08:50:27.915649Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--05be10ab-1734-4eac-8da8-3de6229c964f",
-            "target_ref": "attack-pattern--1e45757b-376a-4874-be56-28ea2cd2dac8",
+            "source_ref": "attack-pattern--89575dad-41e5-4c78-9fa1-0ef36d93177e",
+            "target_ref": "attack-pattern--212ba8ed-7537-49bb-a562-865d29591ed4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6384,13 +6384,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--95cf4ffb-c7e0-4f85-bdb4-fdb3ae8a9d3a",
+            "id": "relationship--1a405f19-04ac-4375-b777-8406935c2df3",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.142277Z",
-            "modified": "2024-03-01T11:23:56.142277Z",
+            "created": "2024-03-25T08:50:27.91642Z",
+            "modified": "2024-03-25T08:50:27.91642Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--fddef5ee-bf0e-4291-bfba-d6ca924c2c66",
-            "target_ref": "attack-pattern--1e45757b-376a-4874-be56-28ea2cd2dac8",
+            "source_ref": "attack-pattern--4d4a170a-b5c6-47eb-9e5e-f4d844bdd18c",
+            "target_ref": "attack-pattern--212ba8ed-7537-49bb-a562-865d29591ed4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6401,13 +6401,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--57e0e380-0db3-4dff-8b61-e8071901979f",
+            "id": "relationship--0cdc6723-aa5e-4d1e-b3dc-34769606e832",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.142337Z",
-            "modified": "2024-03-01T11:23:56.142337Z",
+            "created": "2024-03-25T08:50:27.916494Z",
+            "modified": "2024-03-25T08:50:27.916494Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--c077a596-e39a-4030-aa7d-1aca2a8095d5",
-            "target_ref": "attack-pattern--c06b6b60-d273-4c90-954f-410b3a400ad7",
+            "source_ref": "attack-pattern--c9fcb202-2596-419f-b4b0-a6f2d57579e5",
+            "target_ref": "attack-pattern--e9628e70-223d-43a7-a12d-e294331a3bd4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6418,13 +6418,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9e5c2606-69c4-499e-bc89-1790976a3ee0",
+            "id": "relationship--7d17cd6d-80f6-40f4-9cb4-db262fef79e9",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.1424Z",
-            "modified": "2024-03-01T11:23:56.1424Z",
+            "created": "2024-03-25T08:50:27.916558Z",
+            "modified": "2024-03-25T08:50:27.916558Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--0f91de88-ba27-4d92-ae8c-996d7ae0a7c8",
-            "target_ref": "attack-pattern--c06b6b60-d273-4c90-954f-410b3a400ad7",
+            "source_ref": "attack-pattern--001b4b10-7f27-479c-a120-f23ca32d2612",
+            "target_ref": "attack-pattern--e9628e70-223d-43a7-a12d-e294331a3bd4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6435,13 +6435,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--731e8219-51b1-4f36-9efd-2d1bb94132f9",
+            "id": "relationship--db94f040-fcd7-4741-939e-c4d4f45bbe49",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.142457Z",
-            "modified": "2024-03-01T11:23:56.142457Z",
+            "created": "2024-03-25T08:50:27.916619Z",
+            "modified": "2024-03-25T08:50:27.916619Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--e75e1cfa-0b75-49d5-b5e7-60e32a9a1767",
-            "target_ref": "attack-pattern--c06b6b60-d273-4c90-954f-410b3a400ad7",
+            "source_ref": "attack-pattern--43f52b47-ed72-409a-b776-ff8bf53d5cde",
+            "target_ref": "attack-pattern--e9628e70-223d-43a7-a12d-e294331a3bd4",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6452,13 +6452,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9bc0a4d3-59b5-4af6-bd7f-62a155918133",
+            "id": "relationship--2e309c48-1daf-4401-bbc5-6233c669248d",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.142515Z",
-            "modified": "2024-03-01T11:23:56.142515Z",
+            "created": "2024-03-25T08:50:27.916678Z",
+            "modified": "2024-03-25T08:50:27.916678Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--9c4d85f0-7b58-4c32-af79-7374537d0aa7",
-            "target_ref": "attack-pattern--d79e32e5-d125-487c-bbf9-33f962046b85",
+            "source_ref": "attack-pattern--3df498cb-01bf-4cab-a912-bd1b515ba967",
+            "target_ref": "attack-pattern--3a5a3838-b787-413d-9f8c-5cd9f09f2a51",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6469,13 +6469,13 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--b1228285-150f-4e04-9866-208c98d0e0e8",
+            "id": "relationship--d1d1c6db-faba-408d-a173-3ac4592672c0",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T11:23:56.142573Z",
-            "modified": "2024-03-01T11:23:56.142573Z",
+            "created": "2024-03-25T08:50:27.916736Z",
+            "modified": "2024-03-25T08:50:27.916736Z",
             "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--27159ac9-2ab0-4917-814c-0144d240b8b6",
-            "target_ref": "attack-pattern--3ef39639-4aa3-4eb9-9da6-cc290e26ceca",
+            "source_ref": "attack-pattern--2d63fbe3-1a4d-4698-bd86-a7a92f4222d0",
+            "target_ref": "attack-pattern--4571e48e-28cd-4ca2-b034-24ccd5a89588",
             "x_mitre_attack_spec_version": "2.1.0",
             "x_mitre_domains": [
                 "atrm"
@@ -6486,10 +6486,10 @@
         {
             "type": "x-mitre-matrix",
             "spec_version": "2.1",
-            "id": "x-mitre-matrix--52488c6f-85f5-48f7-91ef-9969803b5ba5",
+            "id": "x-mitre-matrix--b7a201c7-e967-4adc-b4ac-ea1fc58f8c54",
             "created_by_ref": "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e",
-            "created": "2024-03-01T14:23:56.142Z",
-            "modified": "2024-03-01T14:23:56.142Z",
+            "created": "2024-03-25T11:50:27.916Z",
+            "modified": "2024-03-25T11:50:27.916Z",
             "name": "Azure Threat Research Matrix",
             "external_references": [
                 {
@@ -6501,13 +6501,13 @@
             "description": "The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",
             "x_mitre_attack_spec_version": "2.1.0",
             "tactic_refs": [
-                "x-mitre-tactic--7b6ff367-c879-4537-8fdb-98b498f74a0a",
-                "x-mitre-tactic--9255d0b6-a9ea-4e7a-9aeb-9e3b49945d89",
-                "x-mitre-tactic--9d43fc29-8d6a-4642-9305-2fe0c294949d",
-                "x-mitre-tactic--043b23c4-d297-46b7-b6ec-62354628ef68",
-                "x-mitre-tactic--92ae108c-dc8b-49ff-9998-c9fff6796ad0",
-                "x-mitre-tactic--14c05dc6-cb33-45b1-b380-6b8d62780b7e",
-                "x-mitre-tactic--cc375ed2-632d-4d65-90bc-ebb2fa8fac77"
+                "x-mitre-tactic--72987607-3031-4e46-8352-255208c061c7",
+                "x-mitre-tactic--5664197e-8e77-4145-b848-9dd68227eca1",
+                "x-mitre-tactic--2b04afaa-b289-49aa-9a83-44978deb984c",
+                "x-mitre-tactic--f2cee537-023e-433c-83b3-54128e17dc0e",
+                "x-mitre-tactic--6caedcbe-eb96-4ba7-ba7e-3007688f12d1",
+                "x-mitre-tactic--17719260-6270-4060-8d07-369d622a73d4",
+                "x-mitre-tactic--170069f3-584a-4e42-b70b-70e18bcfab2f"
             ],
             "x_mitre_version": "0.1",
             "x_mitre_domains": [
