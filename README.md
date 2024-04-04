@@ -1,4 +1,5 @@
 # Azure Threat Research Matrix STIX Data
+[![Telegram chat](https://img.shields.io/static/v1?label=chat&message=Telegram&color=blue&logo=telegram)](https://t.me/s3curity_experts_community/3744)
 
 The purpose of the [Azure Threat Research Matrix (ATRM)](https://microsoft.github.io/Azure-Threat-Research-Matrix/) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.
 
