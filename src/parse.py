@@ -111,12 +111,12 @@ def parse_atrm(mode: Mode):
 
     bundle = Bundle(collection, objects, allow_custom=True)
     commit_hash = get_last_commit_hash(ATRM_PATH)
-    output_file_last = Path(__file__).parent.parent / "build" / f"atrm_{mode.name}.json"
+    output_file_last = Path(__file__).parent.parent / "build" / f"atrm_{mode.name.lower()}.json"
     with open(output_file_last, "w", encoding="utf-8") as f:
         f.write(bundle.serialize(pretty=True))
 
     output_file_versioned = (
-        Path(__file__).parent.parent / "build" / f"atrm_{mode.name}_{commit_hash}.json"
+        Path(__file__).parent.parent / "build" / f"atrm_{mode.name.lower()}_{commit_hash}.json"
     )
     with open(output_file_versioned, "w", encoding="utf-8") as f:
         f.write(bundle.serialize(pretty=True))
