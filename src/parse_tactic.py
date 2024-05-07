@@ -32,9 +32,11 @@ def parse_tactic(file_path: str, tactic_name: str, mode: Mode) -> Tactic:
             repo_path=ATRM_PATH, file_path=file_path
         )
 
-        mitre_tactic_id = create_uuid_from_string(val=f"microsoft.atrm.{tactic_id}")
+        mitre_tactic_id = "x-mitre-tactic--" + str(
+            create_uuid_from_string(val=f"microsoft.atrm.tactic.{tactic_id}")
+        )
         return Tactic(
-            id=f"x-mitre-tactic--{mitre_tactic_id}",
+            id=mitre_tactic_id,
             x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
             created=creation_datetime,
             modified=modified_datetime,

@@ -15,6 +15,7 @@ from custom_atrm_objects import Technique
 from git_tools import get_file_creation_date, get_file_modification_date
 from marko.ext.gfm import gfm
 from mitreattack.stix20.custom_attack_objects import Tactic
+from utils import create_uuid_from_string
 
 
 def techniques_table(page_as_json):
@@ -133,8 +134,12 @@ def fix_id(atrm_id: str) -> str:
 
 
 def parse_technique(
-    file_path: str, tactic_name: str, techniques_brief_info: dict, tactic_short: str, mode: Mode
-) -> tuple[Technique, dict] :
+    file_path: str,
+    tactic_name: str,
+    techniques_brief_info: dict,
+    tactic_short: str,
+    mode: Mode,
+) -> tuple[Technique, dict]:
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
         html_content = gfm(content)
@@ -167,6 +172,9 @@ def parse_technique(
 
         technique_id = technique_info["id"]
         parent_id = technique_info["parent_id"]
+        mitre_technique_id = "attack-pattern--" + str(
+            create_uuid_from_string(f"microsoft.atrm.technique.{technique_id}")
+        )
 
         if "." in atrm_id or "table" not in json_content:
             if "ul" in json_content:
@@ -212,6 +220,7 @@ def parse_technique(
                     desc = technique_info['brief']
 
                 technique = Technique(
+                    id=mitre_technique_id,
                     x_mitre_platforms=[ATRM_PLATFORM],
                     x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
                     created=creation_datetime,
@@ -271,6 +280,7 @@ def parse_technique(
                     desc = technique_info['brief']
 
                 technique = Technique(
+                    id=mitre_technique_id,
                     x_mitre_platforms=[ATRM_PLATFORM],
                     x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
                     created_by_ref=CREATOR_IDENTITY,
@@ -306,6 +316,7 @@ def parse_technique(
             if "!!!" in desc:
                 desc = technique_info['brief']
             technique = Technique(
+                id=mitre_technique_id,
                 x_mitre_platforms=[ATRM_PLATFORM],
                 x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
                 created_by_ref=CREATOR_IDENTITY,
@@ -332,5 +343,4 @@ def parse_technique(
                 x_mitre_modified_by_ref=CREATOR_IDENTITY,
                 x_mitre_attack_spec_version="2.1.0",
             )
-        print(technique_id)
         return technique, relation
