@@ -12,6 +12,7 @@ from constants import (
 from git_tools import get_file_creation_date, get_file_modification_date
 from marko.ext.gfm import gfm
 from mitreattack.stix20.custom_attack_objects import Tactic
+from utils import create_uuid_from_string
 
 
 def parse_tactic(file_path: str, tactic_name: str, mode: Mode) -> Tactic:
@@ -30,7 +31,12 @@ def parse_tactic(file_path: str, tactic_name: str, mode: Mode) -> Tactic:
         creation_datetime = get_file_creation_date(
             repo_path=ATRM_PATH, file_path=file_path
         )
+
+        mitre_tactic_id = create_uuid_from_string(
+            val=f"{tactic_display_name}.{tactic_link}"
+        )
         return Tactic(
+            id=f"x-mitre-tactic--{mitre_tactic_id}",
             x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
             created=creation_datetime,
             modified=modified_datetime,
