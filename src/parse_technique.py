@@ -1,15 +1,16 @@
 import re
 from pathlib import Path
+from typing import Any
 
 import html_to_json
 from constants import (
     ATRM_PATH,
     ATRM_PLATFORM,
-    GET_ATRM_DOMAIN,
-    GET_ATRM_SOURCE,
-    GET_KILL_CHAIN_NAME,
-    Mode,
     CREATOR_IDENTITY,
+    Mode,
+    get_atrm_domain,
+    get_atrm_source,
+    get_kill_chain_name,
 )
 from custom_atrm_objects import Technique
 from git_tools import get_file_creation_date, get_file_modification_date
@@ -17,33 +18,9 @@ from marko.ext.gfm import gfm
 from mitreattack.stix20.custom_attack_objects import Tactic
 
 
-def techniques_table(page_as_json):
-    return page_as_json["table"][0]["tbody"][0]["tr"]
-
-
-def is_technique(row) -> bool:
-    return bool(row["td"][0])
-
-
-def get_technique_id(row) -> str:
-    return row["td"][0]["a"][0]["_value"]
-
-
-def get_subtechnique_id(row) -> str:
-    return row["td"][1]["a"][0]["_value"]
-
-
-def get_technique_name(row) -> str:
-    return row["td"][2]["_value"]
-
-
-def get_technique_brief(row) -> str:
-    desc_td = row["td"][3]
-    return "" if not desc_td else desc_td["_value"]
-
-
 def get_techniques_brief_info(file_path: str, tactic: Tactic) -> dict:
     techniques = {}
+
     with open(file_path, "r", encoding="utf-8") as f:
         html_content = gfm(f.read())
         json_content = html_to_json.convert(html_content)
@@ -94,7 +71,9 @@ def strip_star(value: str) -> str:
 
 
 def get_tech_elements(
-    json_content: dict, index: int, split: bool = False
+    json_content: dict,
+    index: int,
+    split: bool = False,
 ) -> str | list:
     values = ""
     if len(json_content["pre"]) >= index + 1:
@@ -115,7 +94,7 @@ def get_merged_values(json_content: dict, index: int) -> str | list:
     return [strip_star(v).strip() for v in values.split("\n")[1:]]
 
 
-def get_technique_description(json_content) -> str:
+def get_technique_description(json_content: dict | list) -> str:
     description = ""
     if "_values" in json_content["p"][0]:
         description = " ".join(json_content["p"][0]["_values"])
@@ -133,17 +112,23 @@ def fix_id(atrm_id: str) -> str:
 
 
 def parse_technique(
-    file_path: str, tactic_name: str, techniques_brief_info: dict, tactic_short: str, mode: Mode
-) -> tuple[Technique, dict] :
+    file_path: str,
+    tactic_name: str,
+    techniques_brief_info: dict,
+    tactic_short: str,
+    mode: Mode,
+) -> tuple[Technique, dict]:
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
         html_content = gfm(content)
         json_content = html_to_json.convert(html_content)
         modified_datetime = get_file_modification_date(
-            repo_path=ATRM_PATH, file_path=file_path
+            repo_path=ATRM_PATH,
+            file_path=file_path,
         )
         creation_datetime = get_file_creation_date(
-            repo_path=ATRM_PATH, file_path=file_path
+            repo_path=ATRM_PATH,
+            file_path=file_path,
         )
 
         header_parts = json_content["h1"][0]["_value"].split(" - ")
@@ -209,33 +194,14 @@ def parse_technique(
 
                 desc = description
                 if "!!!" in desc:
-                    desc = technique_info['brief']
+                    desc = technique_info["brief"]
 
-                technique = Technique(
-                    x_mitre_platforms=[ATRM_PLATFORM],
-                    x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
-                    created=creation_datetime,
-                    modified=modified_datetime,
-                    created_by_ref=CREATOR_IDENTITY,
-                    external_references=external_references,
-                    name=technique_info["name"],
-                    description=desc,
-                    x_mitre_brief=technique_info["brief"],
-                    kill_chain_phases=[
-                        {
-                            "kill_chain_name": GET_ATRM_SOURCE(mode=mode),
-                            "phase_name": tactic_short,
-                        }
-                    ],
-                    x_mitre_is_subtechnique=parent_id != technique_id,
-                    x_mitre_version="1.0",
-                    x_mitre_modified_by_ref=CREATOR_IDENTITY,
-                    x_mitre_attack_spec_version="2.1.0",
-                    x_atrm_resources=resources,
-                    x_atrm_actions=actions,
-                    x_atrm_examples=examples,
-                    x_atrm_detections=detections,
-                )
+                kill_chain_phases = [
+                    {
+                        "kill_chain_name": get_atrm_source(mode=mode),
+                        "phase_name": tactic_short,
+                    }
+                ]
             else:
                 resources = get_tech_elements(json_content, 0, split=True)
                 actions = get_tech_elements(json_content, 1, split=True)
@@ -268,33 +234,14 @@ def parse_technique(
                 )
                 desc = description
                 if "!!!" in desc:
-                    desc = technique_info['brief']
+                    desc = technique_info["brief"]
 
-                technique = Technique(
-                    x_mitre_platforms=[ATRM_PLATFORM],
-                    x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
-                    created_by_ref=CREATOR_IDENTITY,
-                    created=creation_datetime,
-                    modified=modified_datetime,
-                    external_references=external_references,
-                    name=technique_info["name"],
-                    description=desc,
-                    x_mitre_brief=technique_info["brief"],
-                    kill_chain_phases=[
-                        {
-                            "kill_chain_name": GET_KILL_CHAIN_NAME(mode=mode),
-                            "phase_name": tactic_short,
-                        }
-                    ],
-                    x_mitre_is_subtechnique=parent_id != technique_id,
-                    x_mitre_version="1.0",
-                    x_mitre_modified_by_ref=CREATOR_IDENTITY,
-                    x_mitre_attack_spec_version="2.1.0",
-                    x_atrm_resources=resources,
-                    x_atrm_actions=actions,
-                    x_atrm_examples=examples,
-                    x_atrm_detections=detections,
-                )
+                kill_chain_phases = [
+                    {
+                        "kill_chain_name": get_kill_chain_name(mode=mode),
+                        "phase_name": tactic_short,
+                    }
+                ]
             if parent_id != technique_id:
                 relation = {
                     "source": technique_id,
@@ -302,34 +249,78 @@ def parse_technique(
                     "target": parent_id,
                 }
         else:
+            resources = None
+            actions = None
+            examples = None
+            detections = None
+
             desc = description
             if "!!!" in desc:
-                desc = technique_info['brief']
-            technique = Technique(
-                x_mitre_platforms=[ATRM_PLATFORM],
-                x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
-                created_by_ref=CREATOR_IDENTITY,
-                created=creation_datetime,
-                modified=modified_datetime,
-                external_references=[
-                    {
-                        "source_name": GET_ATRM_SOURCE(mode=mode),
-                        "external_id": technique_id,
-                        "url": f"https://microsoft.github.io/Azure-Threat-Research-Matrix/{tactic_name}/{atrm_id.split('.')[0]}/{Path(file_path).stem}",
-                    },
-                ],
-                name=technique_info["name"],
-                description=desc,
-                x_mitre_brief=technique_info["brief"],
-                kill_chain_phases=[
-                    {
-                        "kill_chain_name": GET_KILL_CHAIN_NAME(mode=mode),
-                        "phase_name": tactic_short,
-                    }
-                ],
-                x_mitre_is_subtechnique=parent_id != technique_id,
-                x_mitre_version="1.0",
-                x_mitre_modified_by_ref=CREATOR_IDENTITY,
-                x_mitre_attack_spec_version="2.1.0",
-            )
+                desc = technique_info["brief"]
+
+            external_references = [
+                {
+                    "source_name": get_atrm_source(mode=mode),
+                    "external_id": technique_id,
+                    "url": f"https://microsoft.github.io/Azure-Threat-Research-Matrix/{tactic_name}/{atrm_id.split('.')[0]}/{Path(file_path).stem}",
+                },
+            ]
+            kill_chain_phases = [
+                {
+                    "kill_chain_name": get_kill_chain_name(mode=mode),
+                    "phase_name": tactic_short,
+                }
+            ]
+
+        technique = _create_technique_object(
+            x_mitre_platforms=[ATRM_PLATFORM],
+            x_mitre_domains=[get_atrm_domain(mode=mode)],
+            created=creation_datetime,
+            modified=modified_datetime,
+            created_by_ref=CREATOR_IDENTITY,
+            external_references=external_references,
+            name=technique_info["name"],
+            description=desc,
+            x_mitre_brief=technique_info["brief"],
+            kill_chain_phases=kill_chain_phases,
+            x_mitre_is_subtechnique=parent_id != technique_id,
+            x_mitre_version="1.0",
+            x_mitre_modified_by_ref=CREATOR_IDENTITY,
+            x_mitre_attack_spec_version="2.1.0",
+            x_atrm_resources=resources,
+            x_atrm_actions=actions,
+            x_atrm_examples=examples,
+            x_atrm_detections=detections,
+        )
+
         return technique, relation
+
+
+def techniques_table(page_as_json: dict) -> list[dict]:
+    return page_as_json["table"][0]["tbody"][0]["tr"]
+
+
+def is_technique(row: dict) -> bool:
+    return bool(row["td"][0])
+
+
+def get_technique_id(row: dict) -> str:
+    return row["td"][0]["a"][0]["_value"]
+
+
+def get_subtechnique_id(row: dict) -> str:
+    return row["td"][1]["a"][0]["_value"]
+
+
+def get_technique_name(row: dict) -> str:
+    return row["td"][2]["_value"]
+
+
+def get_technique_brief(row: dict) -> str:
+    desc_td = row["td"][3]
+    return "" if not desc_td else desc_td["_value"]
+
+
+def _create_technique_object(**kwargs: dict[str, Any]) -> Technique:
+    kwargs = {k: v for k, v in kwargs.items() if v is not None}
+    return Technique(**kwargs)
