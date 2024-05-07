@@ -332,4 +332,5 @@ def parse_technique(
                 x_mitre_modified_by_ref=CREATOR_IDENTITY,
                 x_mitre_attack_spec_version="2.1.0",
             )
+        print(technique_id)
         return technique, relation
