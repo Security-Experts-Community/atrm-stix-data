@@ -9,9 +9,9 @@ from constants import (
     ATTACK_SPEC_VERSION,
     CREATOR_IDENTITY,
     DEFAULT_CREATOR_JSON,
-    GET_ATRM_DOMAIN,
-    GET_ATRM_SOURCE,
-    GET_COLLECTION_ID,
+    get_atrm_domain,
+    get_atrm_source,
+    get_collection_id,
     Mode,
 )
 from custom_atrm_objects import Collection, ObjectRef, Relationship
@@ -59,7 +59,7 @@ def parse_atrm(mode: Mode):
             x_mitre_version=ATRM_VERSION,
             x_mitre_modified_by_ref=CREATOR_IDENTITY,
             x_mitre_attack_spec_version="2.1.0",
-            x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
+            x_mitre_domains=[get_atrm_domain(mode=mode)],
         )
         for relation in relations
     ]
@@ -77,7 +77,7 @@ def parse_atrm(mode: Mode):
         external_references=[
             {
                 "external_id": "atrm",
-                "source_name": GET_ATRM_SOURCE(mode=mode),
+                "source_name": get_atrm_source(mode=mode),
                 "url": "https://microsoft.github.io/Azure-Threat-Research-Matrix/",
             }
         ],
@@ -87,7 +87,7 @@ def parse_atrm(mode: Mode):
         x_mitre_attack_spec_version=ATTACK_SPEC_VERSION,
         x_mitre_modified_by_ref=CREATOR_IDENTITY,
         spec_version="2.1",
-        x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
+        x_mitre_domains=[get_atrm_domain(mode=mode)],
         allow_custom=True,
     )
     objects.append(matrix)
@@ -96,7 +96,7 @@ def parse_atrm(mode: Mode):
     objects.append(identity)
 
     collection = Collection(
-        id=GET_COLLECTION_ID(mode=mode),
+        id=get_collection_id(mode=mode),
         spec_version="2.1",
         name="Azure Threat Research Matrix",
         description="The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",

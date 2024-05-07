@@ -1,5 +1,6 @@
-from pathlib import Path
 from enum import Enum
+from pathlib import Path
+from typing import Literal
 
 ATRM_PATH = Path(__file__).parent.parent / "ms-matrix" / "Azure-Threat-Research-Matrix"
 ATRM_TACTICS_MAP = {
@@ -14,52 +15,62 @@ ATRM_TACTICS_MAP = {
 ATRM_VERSION = "0.1"
 ATTACK_SPEC_VERSION = "2.1.0"
 ATRM_PLATFORM = "Azure AD"
+CREATOR_IDENTITY = "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e"
+
 
 class Mode(Enum):
-    strict = 1
-    attack_compatible = 2
-    
-# DEFAULT_MODE = Mode.strict
-DEFAULT_MODE = Mode.attack_compatible
-            
-def GET_COLLECTION_ID(mode=DEFAULT_MODE):
+    STRICT: int = 1
+    ATTACK_COMPATIBLE: int = 2
+
+
+ModeEnumAttributes = Literal[Mode.STRICT, Mode.ATTACK_COMPATIBLE]
+# DEFAULT_MODE = Mode.STRICT
+DEFAULT_MODE = Mode.ATTACK_COMPATIBLE
+
+
+class UnexpectedMode(Exception): ...
+
+
+def get_collection_id(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
     match mode:
-        case Mode.strict:
+        case Mode.STRICT:
             return "x-mitre-collection--bf1027b3-fe3a-4eac-bdd5-a1c48c4cb89e"
-        case Mode.attack_compatible:
+        case Mode.ATTACK_COMPATIBLE:
             return "x-mitre-collection--6aaadb00-2dbf-450a-a3e8-d4c6c5309639"
         case _:
-            raise Exception("Unexpected mode") 
-            
+            raise UnexpectedMode("Unexpected mode")
 
-def GET_ATRM_DOMAIN(mode=DEFAULT_MODE):
+
+def get_atrm_domain(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
     match mode:
-        case Mode.strict: 
+        case Mode.STRICT:
             return "atrm"
-        case Mode.attack_compatible: 
+        case Mode.ATTACK_COMPATIBLE:
             return "enterprise-attack"
-        case _: 
-            raise Exception("Unexpected mode")
+        case _:
+            raise UnexpectedMode("Unexpected mode")
 
-def GET_ATRM_SOURCE(mode=DEFAULT_MODE):
+
+def get_atrm_source(mode=DEFAULT_MODE) -> str:
     match mode:
-        case Mode.strict: 
+        case Mode.STRICT:
             return "atrm"
-        case Mode.attack_compatible: 
+        case Mode.ATTACK_COMPATIBLE:
             return "mitre-attack"
-        case _: 
-            raise Exception("Unexpected mode")
+        case _:
+            raise UnexpectedMode("Unexpected mode")
 
-def GET_KILL_CHAIN_NAME(mode=DEFAULT_MODE):
+
+def get_kill_chain_name(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
     match mode:
-        case Mode.strict: 
+        case Mode.STRICT:
             return "atrm"
-        case Mode.attack_compatible: 
+        case Mode.ATTACK_COMPATIBLE:
             return "mitre-attack"
-        case _: 
-            raise Exception("Unexpected mode")
+        case _:
+            raise UnexpectedMode("Unexpected mode")
 
-CREATOR_IDENTITY = "identity--5dcf0a7a-875b-470b-8a01-7c6a84c5e68e"
+
 DEFAULT_CREATOR_JSON = f"""
 {{
     "id": "{CREATOR_IDENTITY}",
@@ -71,7 +82,7 @@ DEFAULT_CREATOR_JSON = f"""
     "spec_version": "2.1",
     "x_mitre_attack_spec_version": "2.1.0",
     "x_mitre_domains": [
-        "{GET_ATRM_DOMAIN()}"
+        "{get_atrm_domain()}"
     ],
     "x_mitre_version": "{ATRM_VERSION}"
 }}

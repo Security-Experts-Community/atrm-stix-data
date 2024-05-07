@@ -4,8 +4,8 @@ from constants import (
     ATRM_TACTICS_MAP,
     ATRM_VERSION,
     ATTACK_SPEC_VERSION,
-    GET_ATRM_DOMAIN,
-    GET_ATRM_SOURCE,
+    get_atrm_domain,
+    get_atrm_source,
     Mode,
     CREATOR_IDENTITY,
 )
@@ -31,7 +31,7 @@ def parse_tactic(file_path: str, tactic_name: str, mode: Mode) -> Tactic:
             repo_path=ATRM_PATH, file_path=file_path
         )
         return Tactic(
-            x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
+            x_mitre_domains=[get_atrm_domain(mode=mode)],
             created=creation_datetime,
             modified=modified_datetime,
             created_by_ref=CREATOR_IDENTITY,
@@ -39,7 +39,7 @@ def parse_tactic(file_path: str, tactic_name: str, mode: Mode) -> Tactic:
                 {
                     "external_id": tactic_id,
                     "url": tactic_link,
-                    "source_name": GET_ATRM_SOURCE(mode=mode),
+                    "source_name": get_atrm_source(mode=mode),
                 },
             ],
             name=tactic_display_name,

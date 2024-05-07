@@ -1,7 +1,7 @@
 """The classes found here are how ATRM objects can be represented as custom STIX objects instead of python dictionaries."""
 from collections import OrderedDict
 
-from constants import GET_ATRM_SOURCE, Mode
+from constants import get_atrm_source, Mode
 from stix2 import CustomObject, KillChainPhase
 from stix2.properties import (
     BooleanProperty,
@@ -62,7 +62,7 @@ class Technique(CustomStixObject, object):
             for reference in external_references:
                 if (
                     reference.get("external_id")
-                    and reference.get("source_name") == GET_ATRM_SOURCE(mode=mode)
+                    and reference.get("source_name") == get_atrm_source(mode=mode)
                 ):
                     return reference["external_id"]
         return None
