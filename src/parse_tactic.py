@@ -4,17 +4,17 @@ from constants import (
     ATRM_TACTICS_MAP,
     ATRM_VERSION,
     ATTACK_SPEC_VERSION,
+    CREATOR_IDENTITY,
+    ModeEnumAttribute,
     get_atrm_domain,
     get_atrm_source,
-    Mode,
-    CREATOR_IDENTITY,
 )
 from git_tools import get_file_creation_date, get_file_modification_date
 from marko.ext.gfm import gfm
 from mitreattack.stix20.custom_attack_objects import Tactic
 
 
-def parse_tactic(file_path: str, tactic_name: str, mode: Mode) -> Tactic:
+def parse_tactic(file_path: str, tactic_name: str, mode: ModeEnumAttribute) -> Tactic:
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
         html_content = gfm(content)

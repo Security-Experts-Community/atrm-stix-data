@@ -2,7 +2,7 @@
 
 from collections import OrderedDict
 
-from constants import get_atrm_source, Mode
+from constants import Mode, get_atrm_source
 from stix2 import CustomObject, KillChainPhase
 from stix2.properties import (
     BooleanProperty,

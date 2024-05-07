@@ -23,7 +23,7 @@ class Mode(Enum):
     ATTACK_COMPATIBLE: int = 2
 
 
-ModeEnumAttributes = Literal[Mode.STRICT, Mode.ATTACK_COMPATIBLE]
+ModeEnumAttribute = Literal[Mode.STRICT, Mode.ATTACK_COMPATIBLE]
 # DEFAULT_MODE = Mode.STRICT
 DEFAULT_MODE = Mode.ATTACK_COMPATIBLE
 
@@ -31,7 +31,7 @@ DEFAULT_MODE = Mode.ATTACK_COMPATIBLE
 class UnexpectedMode(Exception): ...
 
 
-def get_collection_id(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
+def get_collection_id(mode: ModeEnumAttribute = DEFAULT_MODE) -> str:
     match mode:
         case Mode.STRICT:
             return "x-mitre-collection--bf1027b3-fe3a-4eac-bdd5-a1c48c4cb89e"
@@ -41,7 +41,7 @@ def get_collection_id(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
             raise UnexpectedMode("Unexpected mode")
 
 
-def get_atrm_domain(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
+def get_atrm_domain(mode: ModeEnumAttribute = DEFAULT_MODE) -> str:
     match mode:
         case Mode.STRICT:
             return "atrm"
@@ -61,7 +61,7 @@ def get_atrm_source(mode=DEFAULT_MODE) -> str:
             raise UnexpectedMode("Unexpected mode")
 
 
-def get_kill_chain_name(mode: ModeEnumAttributes = DEFAULT_MODE) -> str:
+def get_kill_chain_name(mode: ModeEnumAttribute = DEFAULT_MODE) -> str:
     match mode:
         case Mode.STRICT:
             return "atrm"
