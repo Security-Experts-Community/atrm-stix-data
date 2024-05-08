@@ -16,7 +16,7 @@ from constants import (
     get_collection_id,
 )
 from custom_atrm_objects import Collection, ObjectRef, Relationship
-from git_tools import get_last_commit_hash
+from git_tools import get_last_commit_hash, get_first_commit_date
 from mitreattack.stix20.custom_attack_objects import Matrix
 from parse_tactic import parse_tactic
 from parse_technique import get_techniques_brief_info, parse_technique
@@ -82,7 +82,7 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
 
     matrix = Matrix(
         tactic_refs=[tactics[t].id for t in tactics],
-        created=datetime.now(),
+        created=get_first_commit_date(repo_path=ATRM_PATH),
         modified=datetime.now(),
         created_by_ref=CREATOR_IDENTITY,
         external_references=[
@@ -111,6 +111,8 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
         spec_version="2.1",
         name="Azure Threat Research Matrix",
         description="The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",
+        created=get_first_commit_date(repo_path=ATRM_PATH),
+        modified=datetime.now(),
         x_mitre_attack_spec_version=ATTACK_SPEC_VERSION,
         x_mitre_version=ATRM_VERSION,
         created_by_ref=CREATOR_IDENTITY,

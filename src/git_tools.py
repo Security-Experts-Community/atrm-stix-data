@@ -3,6 +3,11 @@ from datetime import datetime
 import git
 
 
+def get_first_commit_date(repo_path: str) -> str:
+    repo = git.Repo(repo_path)
+    return list(repo.iter_commits(paths="LICENSE"))[-1].committed_datetime
+
+
 def get_last_commit_hash(repo_path: str) -> str:
     repo = git.Repo(repo_path)
     return repo.commit("main").hexsha[:7]
