@@ -5,9 +5,9 @@ import html_to_json
 from constants import (
     ATRM_PATH,
     ATRM_PLATFORM,
-    GET_ATRM_DOMAIN,
-    GET_ATRM_SOURCE,
-    GET_KILL_CHAIN_NAME,
+    get_atrm_domain,
+    get_atrm_source,
+    get_kill_chain_name,
     Mode,
     CREATOR_IDENTITY,
 )
@@ -200,7 +200,7 @@ def parse_technique(
 
                 external_references = [
                     {
-                        "source_name": GET_ATRM_SOURCE(mode=mode),
+                        "source_name": get_atrm_source(mode=mode),
                         "external_id": technique_id,
                         "url": f"https://microsoft.github.io/Azure-Threat-Research-Matrix/{tactic_name}/{atrm_id.split('.')[0]}/{Path(file_path).stem}",
                     },
@@ -222,7 +222,7 @@ def parse_technique(
                 technique = Technique(
                     id=mitre_technique_id,
                     x_mitre_platforms=[ATRM_PLATFORM],
-                    x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
+                    x_mitre_domains=[get_atrm_domain(mode=mode)],
                     created=creation_datetime,
                     modified=modified_datetime,
                     created_by_ref=CREATOR_IDENTITY,
@@ -232,7 +232,7 @@ def parse_technique(
                     x_mitre_brief=technique_info["brief"],
                     kill_chain_phases=[
                         {
-                            "kill_chain_name": GET_ATRM_SOURCE(mode=mode),
+                            "kill_chain_name": get_atrm_source(mode=mode),
                             "phase_name": tactic_short,
                         }
                     ],
@@ -261,7 +261,7 @@ def parse_technique(
 
                 external_references = [
                     {
-                        "source_name": GET_ATRM_SOURCE(mode=mode),
+                        "source_name": get_atrm_source(mode=mode),
                         "external_id": technique_id,
                         "url": f"https://microsoft.github.io/Azure-Threat-Research-Matrix/{tactic_name}/{atrm_id.split('.')[0]}/{Path(file_path).stem}",
                     },
@@ -282,7 +282,7 @@ def parse_technique(
                 technique = Technique(
                     id=mitre_technique_id,
                     x_mitre_platforms=[ATRM_PLATFORM],
-                    x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
+                    x_mitre_domains=[get_atrm_domain(mode=mode)],
                     created_by_ref=CREATOR_IDENTITY,
                     created=creation_datetime,
                     modified=modified_datetime,
@@ -292,7 +292,7 @@ def parse_technique(
                     x_mitre_brief=technique_info["brief"],
                     kill_chain_phases=[
                         {
-                            "kill_chain_name": GET_KILL_CHAIN_NAME(mode=mode),
+                            "kill_chain_name": get_kill_chain_name(mode=mode),
                             "phase_name": tactic_short,
                         }
                     ],
@@ -318,13 +318,13 @@ def parse_technique(
             technique = Technique(
                 id=mitre_technique_id,
                 x_mitre_platforms=[ATRM_PLATFORM],
-                x_mitre_domains=[GET_ATRM_DOMAIN(mode=mode)],
+                x_mitre_domains=[get_atrm_domain(mode=mode)],
                 created_by_ref=CREATOR_IDENTITY,
                 created=creation_datetime,
                 modified=modified_datetime,
                 external_references=[
                     {
-                        "source_name": GET_ATRM_SOURCE(mode=mode),
+                        "source_name": get_atrm_source(mode=mode),
                         "external_id": technique_id,
                         "url": f"https://microsoft.github.io/Azure-Threat-Research-Matrix/{tactic_name}/{atrm_id.split('.')[0]}/{Path(file_path).stem}",
                     },
@@ -334,7 +334,7 @@ def parse_technique(
                 x_mitre_brief=technique_info["brief"],
                 kill_chain_phases=[
                     {
-                        "kill_chain_name": GET_KILL_CHAIN_NAME(mode=mode),
+                        "kill_chain_name": get_kill_chain_name(mode=mode),
                         "phase_name": tactic_short,
                     }
                 ],
