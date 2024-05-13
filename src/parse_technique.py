@@ -277,6 +277,7 @@ def parse_technique(
             ]
 
         technique = _create_technique_object(
+            id=mitre_technique_id,
             x_mitre_platforms=[ATRM_PLATFORM],
             x_mitre_domains=[get_atrm_domain(mode=mode)],
             created=creation_datetime,
