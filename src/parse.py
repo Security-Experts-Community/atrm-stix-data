@@ -1,6 +1,7 @@
 import os
 from datetime import datetime
 from pathlib import Path
+import json
 
 from constants import (
     ATRM_PATH,
@@ -80,9 +81,13 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
     objects.extend([techniques[t] for t in techniques])
     objects.extend(relationships)
 
+    output_file_last = (
+        Path(__file__).parent.parent / "build" / f"atrm_{mode.name.lower()}.json"
+    )
     matrix = Matrix(
         tactic_refs=[tactics[t].id for t in tactics],
-        created=get_first_commit_date(repo_path=ATRM_PATH),
+        created=_parse_prev_created_dt(output_file_last)
+        or get_first_commit_date(repo_path=ATRM_PATH),
         modified=datetime.now(),
         created_by_ref=CREATOR_IDENTITY,
         external_references=[
@@ -124,9 +129,6 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
 
     bundle = Bundle(collection, objects, allow_custom=True)
     commit_hash = get_last_commit_hash(ATRM_PATH)
-    output_file_last = (
-        Path(__file__).parent.parent / "build" / f"atrm_{mode.name.lower()}.json"
-    )
     with open(output_file_last, "w", encoding="utf-8") as f:
         f.write(bundle.serialize(pretty=True))
 
@@ -137,6 +139,16 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
     )
     with open(output_file_versioned, "w", encoding="utf-8") as f:
         f.write(bundle.serialize(pretty=True))
+
+
+def _parse_prev_created_dt(output_f: Path) -> datetime | None:
+    created_dt_or_none = None
+    if output_f.exists():
+        data = json.loads(output_f.open("r", encoding="utf-8").read())
+        created_dt_or_none = data.get("objects", [{}])[0].get("created", None)
+        if created_dt_or_none:
+            created_dt_or_none = datetime.fromisoformat(created_dt_or_none)
+    return created_dt_or_none
 
 
 if __name__ == "__main__":
