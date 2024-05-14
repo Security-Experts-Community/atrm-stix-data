@@ -1,6 +1,7 @@
 """The classes found here are how ATRM objects can be represented as custom STIX objects instead of python dictionaries."""
 
 from collections import OrderedDict
+from datetime import datetime
 
 from constants import Mode, get_atrm_source
 from stix2 import CustomObject, KillChainPhase
@@ -75,6 +76,22 @@ class Technique(CustomStixObject):
     [
         ("id", IDProperty("relationship", spec_version="2.1")),
         ("type", TypeProperty("relationship", spec_version="2.1")),
+        (
+            "created",
+            TimestampProperty(
+                default=datetime.now,
+                precision="millisecond",
+                precision_constraint="min",
+            ),
+        ),
+        (
+            "modified",
+            TimestampProperty(
+                default=datetime.now,
+                precision="millisecond",
+                precision_constraint="min",
+            ),
+        ),
         (
             "x_mitre_modified_by_ref",
             ReferenceProperty(valid_types="identity", spec_version="2.1"),

@@ -251,6 +251,8 @@ def parse_technique(
                     "source": technique_id,
                     "relation": "subtechnique-of",
                     "target": parent_id,
+                    "created": get_file_creation_date(ATRM_PATH, file_path),
+                    "modified": get_file_modification_date(ATRM_PATH, file_path),
                 }
         else:
             resources = None

@@ -63,6 +63,8 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
 
     relationships = [
         Relationship(
+            created=relation.get("created"),
+            modified=relation.get("modified"),
             source_ref=techniques[relation["source"]]["id"],
             relationship_type=relation["relation"],
             target_ref=techniques[relation["target"]]["id"],
