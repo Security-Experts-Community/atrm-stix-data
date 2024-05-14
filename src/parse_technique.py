@@ -278,7 +278,8 @@ def parse_technique(
                 }
             ]
 
-        technique = _create_technique_object(
+        technique = Technique(
+            id=mitre_technique_id,
             x_mitre_platforms=[ATRM_PLATFORM],
             x_mitre_domains=[get_atrm_domain(mode=mode)],
             created=creation_datetime,
@@ -325,8 +326,3 @@ def get_technique_name(row: dict) -> str:
 def get_technique_brief(row: dict) -> str:
     desc_td = row["td"][3]
     return "" if not desc_td else desc_td["_value"]
-
-
-def _create_technique_object(**kwargs: dict[str, Any]) -> Technique:
-    kwargs = {k: v for k, v in kwargs.items() if v is not None}
-    return Technique(**kwargs)
