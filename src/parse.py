@@ -2,6 +2,9 @@ import os
 from datetime import datetime
 from pathlib import Path
 
+from mitreattack.stix20.custom_attack_objects import Matrix
+from stix2 import Bundle, parse
+
 from constants import (
     ATRM_PATH,
     ATRM_TACTICS_MAP,
@@ -16,11 +19,9 @@ from constants import (
     get_collection_id,
 )
 from custom_atrm_objects import Collection, ObjectRef, Relationship
-from git_tools import get_last_commit_hash, get_first_commit_date
-from mitreattack.stix20.custom_attack_objects import Matrix
+from git_tools import get_first_commit_date, get_last_commit_hash
 from parse_tactic import parse_tactic
 from parse_technique import get_techniques_brief_info, parse_technique
-from stix2 import Bundle, parse
 
 
 def parse_atrm(mode: ModeEnumAttribute) -> None:
@@ -31,7 +32,7 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
 
     for tactic_name in ATRM_TACTICS_MAP:
         path = ATRM_PATH / "docs" / tactic_name
-        tactic_file = path / [f for f in os.listdir(path) if f.endswith(".md")][0]
+        tactic_file = path / [f for f in os.listdir(path) if f.endswith(".md")][0]  # noqa: RUF015
         tech_folders = (f for f in os.listdir(path) if not f.endswith(".md"))
 
         tactic = parse_tactic(tactic_file, tactic_name, mode)
@@ -92,7 +93,7 @@ def parse_atrm(mode: ModeEnumAttribute) -> None:
                 "external_id": "atrm",
                 "source_name": get_atrm_source(mode=mode),
                 "url": "https://microsoft.github.io/Azure-Threat-Research-Matrix/",
-            }
+            },
         ],
         name="Azure Threat Research Matrix",
         description="The purpose of the Azure Threat Research Matrix (ATRM) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.",

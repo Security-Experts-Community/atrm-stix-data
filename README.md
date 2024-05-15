@@ -3,13 +3,13 @@
 
 The purpose of the [Azure Threat Research Matrix (ATRM)](https://microsoft.github.io/Azure-Threat-Research-Matrix/) is to educate readers on the potential of Azure-based tactics, techniques, and procedures (TTPs). It is not to teach how to weaponize or specifically abuse them. For this reason, some specific commands will be obfuscated or parts will be omitted to prevent abuse.
 
-This repository contains the ATRM dataset represented in STIX 2.1 JSON collections. 
+This repository contains the ATRM dataset represented in STIX 2.1 JSON collections.
 
 ## Repository Structure
 
 ```
 .
-├─ build ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ Collection folder 
+├─ build ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ Collection folder
 │   ├─ atrm_strict.json ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ Most recent strict ATRM release
 │   ├─ atrm_attack_compatible.json ∙∙∙∙∙∙∙∙∙∙∙∙∙∙ Most recent ATT&CK compatible ATRM release
 │   ├─ atrm_strict_9f05fef.json ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙ ATRM strict collection for commit hash 9f05fef of site repo
