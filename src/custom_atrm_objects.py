@@ -1,8 +1,9 @@
 """The classes found here are how ATRM objects can be represented as custom STIX objects instead of python dictionaries."""
 
 from collections import OrderedDict
+from datetime import datetime
+from typing import ClassVar
 
-from constants import Mode, get_atrm_source
 from stix2 import CustomObject, KillChainPhase
 from stix2.properties import (
     BooleanProperty,
@@ -14,6 +15,8 @@ from stix2.properties import (
     TypeProperty,
 )
 from stix2.v21.base import _STIXBase21
+
+from constants import Mode, get_atrm_source
 
 
 class CustomStixObject:
@@ -64,7 +67,7 @@ class Technique(CustomStixObject):
         if external_references:
             for reference in external_references:
                 if reference.get("external_id") and reference.get(
-                    "source_name"
+                    "source_name",
                 ) == get_atrm_source(mode=mode):
                     return reference["external_id"]
         return None
@@ -75,6 +78,22 @@ class Technique(CustomStixObject):
     [
         ("id", IDProperty("relationship", spec_version="2.1")),
         ("type", TypeProperty("relationship", spec_version="2.1")),
+        (
+            "created",
+            TimestampProperty(
+                default=datetime.now,
+                precision="millisecond",
+                precision_constraint="min",
+            ),
+        ),
+        (
+            "modified",
+            TimestampProperty(
+                default=datetime.now,
+                precision="millisecond",
+                precision_constraint="min",
+            ),
+        ),
         (
             "x_mitre_modified_by_ref",
             ReferenceProperty(valid_types="identity", spec_version="2.1"),
@@ -118,7 +137,7 @@ class Relationship(CustomStixObject):
 
 
 class ObjectRef(_STIXBase21):
-    _properties = OrderedDict(
+    _properties: ClassVar = OrderedDict(
         [
             ("object_ref", StringProperty(required=True)),
             (
@@ -129,7 +148,7 @@ class ObjectRef(_STIXBase21):
                     required=True,
                 ),
             ),
-        ]
+        ],
     )
 
 

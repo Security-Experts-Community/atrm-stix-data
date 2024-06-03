@@ -1,8 +1,10 @@
 import re
 from pathlib import Path
-from typing import Any
 
 import html_to_json
+from marko.ext.gfm import gfm
+from mitreattack.stix20.custom_attack_objects import Tactic
+
 from constants import (
     ATRM_PATH,
     ATRM_PLATFORM,
@@ -14,15 +16,13 @@ from constants import (
 )
 from custom_atrm_objects import Technique
 from git_tools import get_file_creation_date, get_file_modification_date
-from marko.ext.gfm import gfm
-from mitreattack.stix20.custom_attack_objects import Tactic
 from utils import create_uuid_from_string
 
 
 def get_techniques_brief_info(file_path: str, tactic: Tactic) -> dict:
     techniques = {}
 
-    with open(file_path, "r", encoding="utf-8") as f:
+    with open(file_path, encoding="utf-8") as f:
         html_content = gfm(f.read())
         json_content = html_to_json.convert(html_content)
 
@@ -119,7 +119,7 @@ def parse_technique(
     tactic_short: str,
     mode: Mode,
 ) -> tuple[Technique, dict]:
-    with open(file_path, "r", encoding="utf-8") as f:
+    with open(file_path, encoding="utf-8") as f:
         content = f.read()
         html_content = gfm(content)
         json_content = html_to_json.convert(html_content)
@@ -154,7 +154,7 @@ def parse_technique(
         technique_id = technique_info["id"]
         parent_id = technique_info["parent_id"]
         mitre_technique_id = "attack-pattern--" + str(
-            create_uuid_from_string(f"microsoft.atrm.technique.{technique_id}")
+            create_uuid_from_string(f"microsoft.atrm.technique.{technique_id}"),
         )
 
         if "." in atrm_id or "table" not in json_content:
@@ -164,7 +164,7 @@ def parse_technique(
                     [
                         b["p"][0]["strong"][0]["_value"] + b["p"][0]["_value"]
                         for b in bullits
-                    ]
+                    ],
                 )
                 resources = get_merged_values(json_content, 1)
                 actions = get_merged_values(json_content, 2)
@@ -193,7 +193,7 @@ def parse_technique(
                             "url": link,
                         }
                         for link in links
-                    ]
+                    ],
                 )
 
                 desc = description
@@ -204,7 +204,7 @@ def parse_technique(
                     {
                         "kill_chain_name": get_atrm_source(mode=mode),
                         "phase_name": tactic_short,
-                    }
+                    },
                 ]
             else:
                 resources = get_tech_elements(json_content, 0, split=True)
@@ -234,7 +234,7 @@ def parse_technique(
                             "url": link,
                         }
                         for link in links
-                    ]
+                    ],
                 )
                 desc = description
                 if "!!!" in desc:
@@ -244,13 +244,15 @@ def parse_technique(
                     {
                         "kill_chain_name": get_kill_chain_name(mode=mode),
                         "phase_name": tactic_short,
-                    }
+                    },
                 ]
             if parent_id != technique_id:
                 relation = {
                     "source": technique_id,
                     "relation": "subtechnique-of",
                     "target": parent_id,
+                    "created": get_file_creation_date(ATRM_PATH, file_path),
+                    "modified": get_file_modification_date(ATRM_PATH, file_path),
                 }
         else:
             resources = None
@@ -273,10 +275,11 @@ def parse_technique(
                 {
                     "kill_chain_name": get_kill_chain_name(mode=mode),
                     "phase_name": tactic_short,
-                }
+                },
             ]
 
-        technique = _create_technique_object(
+        technique = Technique(
+            id=mitre_technique_id,
             x_mitre_platforms=[ATRM_PLATFORM],
             x_mitre_domains=[get_atrm_domain(mode=mode)],
             created=creation_datetime,
@@ -323,8 +326,3 @@ def get_technique_name(row: dict) -> str:
 def get_technique_brief(row: dict) -> str:
     desc_td = row["td"][3]
     return "" if not desc_td else desc_td["_value"]
-
-
-def _create_technique_object(**kwargs: dict[str, Any]) -> Technique:
-    kwargs = {k: v for k, v in kwargs.items() if v is not None}
-    return Technique(**kwargs)

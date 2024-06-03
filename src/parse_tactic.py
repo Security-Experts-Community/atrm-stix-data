@@ -1,4 +1,7 @@
 import html_to_json
+from marko.ext.gfm import gfm
+from mitreattack.stix20.custom_attack_objects import Tactic
+
 from constants import (
     ATRM_PATH,
     ATRM_TACTICS_MAP,
@@ -10,13 +13,11 @@ from constants import (
     get_atrm_source,
 )
 from git_tools import get_file_creation_date, get_file_modification_date
-from marko.ext.gfm import gfm
-from mitreattack.stix20.custom_attack_objects import Tactic
 from utils import create_uuid_from_string
 
 
 def parse_tactic(file_path: str, tactic_name: str, mode: ModeEnumAttribute) -> Tactic:
-    with open(file_path, "r", encoding="utf-8") as f:
+    with open(file_path, encoding="utf-8") as f:
         content = f.read()
         html_content = gfm(content)
         json_content = html_to_json.convert(html_content)
@@ -26,14 +27,14 @@ def parse_tactic(file_path: str, tactic_name: str, mode: ModeEnumAttribute) -> T
         tactic_link = f"https://microsoft.github.io/Azure-Threat-Research-Matrix/{tactic_name}/{tactic_name}"
         tactic_display_name = json_content["h1"][0]["_value"]
         modified_datetime = get_file_modification_date(
-            repo_path=ATRM_PATH, file_path=file_path
+            repo_path=ATRM_PATH, file_path=file_path,
         )
         creation_datetime = get_file_creation_date(
-            repo_path=ATRM_PATH, file_path=file_path
+            repo_path=ATRM_PATH, file_path=file_path,
         )
 
         mitre_tactic_id = "x-mitre-tactic--" + str(
-            create_uuid_from_string(val=f"microsoft.atrm.tactic.{tactic_id}")
+            create_uuid_from_string(val=f"microsoft.atrm.tactic.{tactic_id}"),
         )
         return Tactic(
             id=mitre_tactic_id,
